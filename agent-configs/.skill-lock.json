@@ -1,0 +1,1410 @@
+{
+  "version": 3,
+  "skills": {
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "skillFolderHash": "bf90d0a4b83ea054653350f9c67f6de235d3a368",
+      "installedAt": "2026-06-28T09:00:55.688Z",
+      "updatedAt": "2026-06-28T09:00:55.688Z"
+    },
+    "deploy-to-vercel": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/deploy-to-vercel/SKILL.md",
+      "skillFolderHash": "1378aa506439f26c809dbcfc61515cbd70f93d69",
+      "installedAt": "2026-06-28T09:00:55.694Z",
+      "updatedAt": "2026-06-28T09:00:55.694Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
+      "installedAt": "2026-06-28T09:00:55.697Z",
+      "updatedAt": "2026-06-28T09:00:55.697Z"
+    },
+    "vercel-react-native-skills": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-native-skills/SKILL.md",
+      "skillFolderHash": "8b4c6a51914e2111ab6f4f00cb81778652aa241d",
+      "installedAt": "2026-06-28T09:00:55.701Z",
+      "updatedAt": "2026-06-28T09:00:55.701Z"
+    },
+    "vercel-react-view-transitions": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-view-transitions/SKILL.md",
+      "skillFolderHash": "13063dbbfc1b085cbc11b9bd5d4324aa2f41bb3a",
+      "installedAt": "2026-06-28T09:00:55.705Z",
+      "updatedAt": "2026-09-05T04:37:47.049Z"
+    },
+    "vercel-cli-with-tokens": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/vercel-cli-with-tokens/SKILL.md",
+      "skillFolderHash": "279c8760375cb6a47a4a8a312b652b0745c6d776",
+      "installedAt": "2026-06-28T09:00:55.707Z",
+      "updatedAt": "2026-06-28T09:00:55.707Z"
+    },
+    "vercel-optimize": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/vercel-optimize/SKILL.md",
+      "skillFolderHash": "0901aa3667db7a6e5cc40b213327290bf6556373",
+      "installedAt": "2026-06-28T09:00:55.709Z",
+      "updatedAt": "2026-06-28T09:00:55.709Z"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "skillFolderHash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
+      "installedAt": "2026-06-28T09:00:55.710Z",
+      "updatedAt": "2026-06-28T09:00:55.710Z"
+    },
+    "writing-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/writing-guidelines/SKILL.md",
+      "skillFolderHash": "17d954cadfb8dec50bf0c707c9e7634be9ae9fe8",
+      "installedAt": "2026-06-28T09:00:55.710Z",
+      "updatedAt": "2026-06-28T09:00:55.710Z"
+    },
+    "sentry-android-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-android-sdk/SKILL.md",
+      "skillFolderHash": "3107509aca257c0a145afe3abf6ccb07d7711d4c",
+      "installedAt": "2026-06-28T09:02:08.972Z",
+      "updatedAt": "2026-06-28T09:02:08.972Z"
+    },
+    "sentry-browser-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-browser-sdk/SKILL.md",
+      "skillFolderHash": "021fa0ccb316e74c929430a184f3d38282c57ea4",
+      "installedAt": "2026-06-28T09:02:08.981Z",
+      "updatedAt": "2026-06-28T09:02:08.981Z"
+    },
+    "sentry-cloudflare-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-cloudflare-sdk/SKILL.md",
+      "skillFolderHash": "870c6e788189f8e7daf736a5ab6fc5f7b2fdcaf4",
+      "installedAt": "2026-06-28T09:02:08.985Z",
+      "updatedAt": "2026-06-28T09:02:08.985Z"
+    },
+    "sentry-cocoa-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-cocoa-sdk/SKILL.md",
+      "skillFolderHash": "95db12968bd7c32d93605591cefabb95c189472a",
+      "installedAt": "2026-06-28T09:02:08.989Z",
+      "updatedAt": "2026-06-28T09:02:08.989Z"
+    },
+    "sentry-code-review": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-code-review/SKILL.md",
+      "skillFolderHash": "c8cb8de1ee8732ee0711f852834add0728c0821a",
+      "installedAt": "2026-06-28T09:02:08.993Z",
+      "updatedAt": "2026-06-28T09:02:08.993Z"
+    },
+    "sentry-create-alert": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-create-alert/SKILL.md",
+      "skillFolderHash": "c09e2f1b5d6683666fdda589ec255a0dc5a54a5d",
+      "installedAt": "2026-06-28T09:02:08.997Z",
+      "updatedAt": "2026-06-28T09:02:08.997Z"
+    },
+    "sentry-dotnet-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-dotnet-sdk/SKILL.md",
+      "skillFolderHash": "ac5021b944ac52b1c91eba2ae741b6f5fe67be94",
+      "installedAt": "2026-06-28T09:02:09.003Z",
+      "updatedAt": "2026-06-28T09:02:09.003Z"
+    },
+    "sentry-elixir-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-elixir-sdk/SKILL.md",
+      "skillFolderHash": "8b8e9af373e8c58bed8aa3ad2ec1849966c46c5c",
+      "installedAt": "2026-06-28T09:02:09.009Z",
+      "updatedAt": "2026-06-28T09:02:09.009Z"
+    },
+    "sentry-feature-setup": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-feature-setup/SKILL.md",
+      "skillFolderHash": "3bdb069a207f313c9f58a15c57ba7fc80a96d4b7",
+      "installedAt": "2026-06-28T09:02:09.013Z",
+      "updatedAt": "2026-06-28T09:02:09.013Z"
+    },
+    "sentry-fix-issues": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-fix-issues/SKILL.md",
+      "skillFolderHash": "c0f5bde3473dd62ce2ed8c3179e8e8ecfed6c0ee",
+      "installedAt": "2026-06-28T09:02:09.018Z",
+      "updatedAt": "2026-06-28T09:02:09.018Z"
+    },
+    "sentry-flutter-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-flutter-sdk/SKILL.md",
+      "skillFolderHash": "5c9789291d3c9f503fe2d7a0f9fcf89020381426",
+      "installedAt": "2026-06-28T09:02:09.024Z",
+      "updatedAt": "2026-06-28T09:02:09.024Z"
+    },
+    "sentry-go-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-go-sdk/SKILL.md",
+      "skillFolderHash": "4bea61c530e5f42f54ef52ddcf5b0c87db18c4e6",
+      "installedAt": "2026-06-28T09:02:09.026Z",
+      "updatedAt": "2026-06-28T09:02:09.026Z"
+    },
+    "sentry-instrumentation-guide": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-instrumentation-guide/SKILL.md",
+      "skillFolderHash": "2d63e2f7130920b0ce67fa7c5ac888bf14daabd8",
+      "installedAt": "2026-06-28T09:02:09.029Z",
+      "updatedAt": "2026-06-28T09:02:09.029Z"
+    },
+    "sentry-nestjs-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-nestjs-sdk/SKILL.md",
+      "skillFolderHash": "7f0853f94e190b42c222da9cc7f91ab4c26a74c5",
+      "installedAt": "2026-06-28T09:02:09.032Z",
+      "updatedAt": "2026-06-28T09:02:09.032Z"
+    },
+    "sentry-nextjs-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-nextjs-sdk/SKILL.md",
+      "skillFolderHash": "52ba8600d95088bf25bc43fdf4be45799dbe5c6f",
+      "installedAt": "2026-06-28T09:02:09.036Z",
+      "updatedAt": "2026-06-28T09:02:09.036Z"
+    },
+    "sentry-node-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-node-sdk/SKILL.md",
+      "skillFolderHash": "7cae61a3f8de1802946cf4425fd371c5cd95702a",
+      "installedAt": "2026-06-28T09:02:09.039Z",
+      "updatedAt": "2026-06-28T09:02:09.039Z"
+    },
+    "sentry-otel-exporter-setup": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-otel-exporter-setup/SKILL.md",
+      "skillFolderHash": "15f86a1eefd93aceb48793deea61fdf732292668",
+      "installedAt": "2026-06-28T09:02:09.042Z",
+      "updatedAt": "2026-06-28T09:02:09.042Z"
+    },
+    "sentry-php-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-php-sdk/SKILL.md",
+      "skillFolderHash": "3e5e79f3425c4d86e511b5264fdad61407b550e6",
+      "installedAt": "2026-06-28T09:02:09.045Z",
+      "updatedAt": "2026-06-28T09:02:09.045Z"
+    },
+    "sentry-pr-code-review": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-pr-code-review/SKILL.md",
+      "skillFolderHash": "e28aff9c579485ab1736f16c092ee24b60b0e481",
+      "installedAt": "2026-06-28T09:02:09.048Z",
+      "updatedAt": "2026-06-28T09:02:09.048Z"
+    },
+    "sentry-python-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-python-sdk/SKILL.md",
+      "skillFolderHash": "1bca9170e1049ce274fd13f3adb717c81fb788e5",
+      "installedAt": "2026-06-28T09:02:09.052Z",
+      "updatedAt": "2026-06-28T09:02:09.052Z"
+    },
+    "sentry-react-native-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-react-native-sdk/SKILL.md",
+      "skillFolderHash": "b72b8c0cc41887c44e67f06e05e1926c22f904d9",
+      "installedAt": "2026-06-28T09:02:09.055Z",
+      "updatedAt": "2026-06-28T09:02:09.055Z"
+    },
+    "sentry-react-router-framework-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-react-router-framework-sdk/SKILL.md",
+      "skillFolderHash": "b36261c99836fd9d961f54e835b69fb09d1aa5f0",
+      "installedAt": "2026-06-28T09:02:09.058Z",
+      "updatedAt": "2026-06-28T09:02:09.058Z"
+    },
+    "sentry-react-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-react-sdk/SKILL.md",
+      "skillFolderHash": "34af3bb28b5359b4affb4b6ba042fc25db0ba0c1",
+      "installedAt": "2026-06-28T09:02:09.061Z",
+      "updatedAt": "2026-06-28T09:02:09.061Z"
+    },
+    "sentry-ruby-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-ruby-sdk/SKILL.md",
+      "skillFolderHash": "94cd72519a8b5cacb3b08e0cedc850b28b2a85cc",
+      "installedAt": "2026-06-28T09:02:09.065Z",
+      "updatedAt": "2026-06-28T09:02:09.065Z"
+    },
+    "sentry-sdk-setup": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-sdk-setup/SKILL.md",
+      "skillFolderHash": "e6c85f458552690c56906440df86affa8a6fb10b",
+      "installedAt": "2026-06-28T09:02:09.067Z",
+      "updatedAt": "2026-06-28T09:02:09.067Z"
+    },
+    "sentry-sdk-skill-creator": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-sdk-skill-creator/SKILL.md",
+      "skillFolderHash": "29498a433ce215d3294f76b27874e66c36aefb7a",
+      "installedAt": "2026-06-28T09:02:09.069Z",
+      "updatedAt": "2026-06-28T09:02:09.069Z"
+    },
+    "sentry-sdk-upgrade": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-sdk-upgrade/SKILL.md",
+      "skillFolderHash": "b0f09524365df3e89a2846990922a25a781ece00",
+      "installedAt": "2026-06-28T09:02:09.071Z",
+      "updatedAt": "2026-06-28T09:02:09.071Z"
+    },
+    "sentry-setup-ai-monitoring": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-setup-ai-monitoring/SKILL.md",
+      "skillFolderHash": "aeb4b1cd32ff6b25f597d6564d538d06999abf50",
+      "installedAt": "2026-06-28T09:02:09.074Z",
+      "updatedAt": "2026-06-28T09:02:09.074Z"
+    },
+    "sentry-span-streaming-js": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-span-streaming-js/SKILL.md",
+      "skillFolderHash": "7d6ae3ddf13fe0ba6080c04d0592edffa0fda37e",
+      "installedAt": "2026-06-28T09:02:09.077Z",
+      "updatedAt": "2026-06-28T09:02:09.077Z"
+    },
+    "sentry-span-streaming-python": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-span-streaming-python/SKILL.md",
+      "skillFolderHash": "7fa38a1ed5f629a9520a9d668622c9c054c5d87b",
+      "installedAt": "2026-06-28T09:02:09.081Z",
+      "updatedAt": "2026-06-28T09:02:09.081Z"
+    },
+    "sentry-svelte-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-svelte-sdk/SKILL.md",
+      "skillFolderHash": "750256cc3f3427110d219aa920dd82f626f76d91",
+      "installedAt": "2026-06-28T09:02:09.087Z",
+      "updatedAt": "2026-06-28T09:02:09.087Z"
+    },
+    "sentry-tanstack-start-sdk": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-tanstack-start-sdk/SKILL.md",
+      "skillFolderHash": "df5f9b75ee433c6998982bac7e0634abc91babed",
+      "installedAt": "2026-06-28T09:02:09.090Z",
+      "updatedAt": "2026-06-28T09:02:09.090Z"
+    },
+    "sentry-workflow": {
+      "source": "getsentry/sentry-for-ai",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/getsentry/sentry-for-ai.git",
+      "skillPath": "skills/sentry-workflow/SKILL.md",
+      "skillFolderHash": "ddc12021843cb7273846f7aaf6f6f63c4ead3062",
+      "installedAt": "2026-06-28T09:02:09.107Z",
+      "updatedAt": "2026-06-28T09:02:09.107Z"
+    },
+    "claimable-postgres": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/claimable-postgres/SKILL.md",
+      "skillFolderHash": "e6c23a9de23701466b807bffd770b90d49ba72a3",
+      "installedAt": "2026-06-28T09:02:27.897Z",
+      "updatedAt": "2026-06-28T09:02:27.897Z"
+    },
+    "neon": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/neon/SKILL.md",
+      "skillFolderHash": "8fc1d85f935c6496a4308764f3ac6fa4064a50ea",
+      "installedAt": "2026-06-28T09:02:27.903Z",
+      "updatedAt": "2026-09-05T04:37:50.413Z"
+    },
+    "neon-ai-gateway": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/neon-ai-gateway/SKILL.md",
+      "skillFolderHash": "df2a958bf6136094bb84ebc60fe7adff62e06756",
+      "installedAt": "2026-06-28T09:02:27.905Z",
+      "updatedAt": "2026-09-05T04:37:54.020Z"
+    },
+    "neon-functions": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/neon-functions/SKILL.md",
+      "skillFolderHash": "de503a45f7672d669a297d5a426acde9df6a2d6b",
+      "installedAt": "2026-06-28T09:02:27.910Z",
+      "updatedAt": "2026-09-05T04:37:56.783Z"
+    },
+    "neon-object-storage": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/neon-object-storage/SKILL.md",
+      "skillFolderHash": "a1e54afe4dc04718e266f9cb3a8a38b4e15f368e",
+      "installedAt": "2026-06-28T09:02:27.915Z",
+      "updatedAt": "2026-09-05T04:37:59.764Z"
+    },
+    "neon-postgres": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/neon-postgres/SKILL.md",
+      "skillFolderHash": "e0084eadc20e12c1544bcc8ef5edca003c8fc435",
+      "installedAt": "2026-06-28T09:02:27.919Z",
+      "updatedAt": "2026-09-05T04:38:02.115Z"
+    },
+    "neon-postgres-branches": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/neon-postgres-branches/SKILL.md",
+      "skillFolderHash": "9e33554d7fc7fbc46e87abca945d71c32ffd7036",
+      "installedAt": "2026-06-28T09:02:27.923Z",
+      "updatedAt": "2026-09-05T04:38:05.411Z"
+    },
+    "neon-postgres-egress-optimizer": {
+      "source": "neondatabase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/neondatabase/agent-skills.git",
+      "skillPath": "skills/neon-postgres-egress-optimizer/SKILL.md",
+      "skillFolderHash": "7f3ff84fb529e6c74b6c6953609401e45d1c0972",
+      "installedAt": "2026-06-28T09:02:27.929Z",
+      "updatedAt": "2026-09-05T04:38:08.177Z"
+    },
+    "composio": {
+      "source": "composiohq/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/composiohq/skills.git",
+      "skillPath": "skills/composio/SKILL.md",
+      "skillFolderHash": "30cde59eecd6dacd35274a87e729c746f21e8f9e",
+      "installedAt": "2026-06-28T09:02:41.540Z",
+      "updatedAt": "2026-06-28T09:02:41.540Z"
+    },
+    "skill-creator": {
+      "source": "composiohq/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/composiohq/skills.git",
+      "skillPath": ".agents/skills/skill-creator/SKILL.md",
+      "skillFolderHash": "a01fbe3fa7f17f64173bd4fdcfecea86a3fd664c",
+      "installedAt": "2026-06-28T09:02:41.550Z",
+      "updatedAt": "2026-06-28T09:02:41.550Z"
+    },
+    "agent-skills": {
+      "source": "datadog-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/datadog-labs/agent-skills.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "157edafdc1007e2550c5051649caaff5be32f3b8",
+      "installedAt": "2026-06-28T09:02:54.496Z",
+      "updatedAt": "2026-09-05T04:38:14.480Z"
+    },
+    "cloudflare": {
+      "source": "oakoss/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/oakoss/agent-skills.git",
+      "skillPath": "skills/cloudflare/SKILL.md",
+      "skillFolderHash": "36f5ae3207f7b50dd5f136343c361076fc5bb5b9",
+      "installedAt": "2026-06-28T09:04:13.213Z",
+      "updatedAt": "2026-06-28T09:04:13.213Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-09-04T16:59:23.352Z",
+      "updatedAt": "2026-09-04T17:32:02.923Z"
+    },
+    "brandkit": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/brandkit/SKILL.md",
+      "skillFolderHash": "d278ff748cafab01e4ae5dd7758fc0b53258621c",
+      "installedAt": "2026-09-05T04:35:10.416Z",
+      "updatedAt": "2026-09-05T04:35:10.416Z"
+    },
+    "industrial-brutalist-ui": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/brutalist-skill/SKILL.md",
+      "skillFolderHash": "f812ede7e5c34cf680f629911e9f9ac05e416cf4",
+      "installedAt": "2026-09-05T04:35:10.421Z",
+      "updatedAt": "2026-09-05T04:35:10.421Z"
+    },
+    "gpt-taste": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/gpt-tasteskill/SKILL.md",
+      "skillFolderHash": "c87d529ad945cd35985b19475bf53f41682d4f69",
+      "installedAt": "2026-09-05T04:35:10.424Z",
+      "updatedAt": "2026-09-05T04:35:10.424Z"
+    },
+    "image-to-code": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/image-to-code-skill/SKILL.md",
+      "skillFolderHash": "701b3cb89c061fcf98a98f639e0b0b5c0b492479",
+      "installedAt": "2026-09-05T04:35:10.425Z",
+      "updatedAt": "2026-09-05T04:35:10.425Z"
+    },
+    "imagegen-frontend-mobile": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/imagegen-frontend-mobile/SKILL.md",
+      "skillFolderHash": "9901fcde67e9506a706912107825fdfb72e01f30",
+      "installedAt": "2026-09-05T04:35:10.427Z",
+      "updatedAt": "2026-09-05T04:35:10.427Z"
+    },
+    "imagegen-frontend-web": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/imagegen-frontend-web/SKILL.md",
+      "skillFolderHash": "3b5117d349200e33f9c3399344681620079dcc18",
+      "installedAt": "2026-09-05T04:35:10.430Z",
+      "updatedAt": "2026-09-05T04:35:10.430Z"
+    },
+    "minimalist-ui": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/minimalist-skill/SKILL.md",
+      "skillFolderHash": "5509c012862cda27e2ed7efae89ed940ecc53add",
+      "installedAt": "2026-09-05T04:35:10.431Z",
+      "updatedAt": "2026-09-05T04:35:10.431Z"
+    },
+    "full-output-enforcement": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/output-skill/SKILL.md",
+      "skillFolderHash": "3dd6ad49b667d15182acddc9d3e4f7763ae33c9c",
+      "installedAt": "2026-09-05T04:35:10.432Z",
+      "updatedAt": "2026-09-05T04:35:10.432Z"
+    },
+    "redesign-existing-projects": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/redesign-skill/SKILL.md",
+      "skillFolderHash": "d9cffe56d26d4af7687299e391a7be1cfaf46c1b",
+      "installedAt": "2026-09-05T04:35:10.434Z",
+      "updatedAt": "2026-09-05T04:35:10.434Z"
+    },
+    "high-end-visual-design": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/soft-skill/SKILL.md",
+      "skillFolderHash": "1b5943432ddd1b980206968c529a323cc992dbec",
+      "installedAt": "2026-09-05T04:35:10.437Z",
+      "updatedAt": "2026-09-05T04:35:10.437Z"
+    },
+    "stitch-design-taste": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/stitch-skill/SKILL.md",
+      "skillFolderHash": "de2038cf286b31f33b397c1308455dbc17ef26f3",
+      "installedAt": "2026-09-05T04:35:10.438Z",
+      "updatedAt": "2026-09-05T04:35:10.438Z"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "skillFolderHash": "a6d128e53b4ec0238baee751dde33bf707adb5ec",
+      "installedAt": "2026-09-05T04:35:10.439Z",
+      "updatedAt": "2026-09-05T04:35:10.439Z"
+    },
+    "design-taste-frontend-v1": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill-v1/SKILL.md",
+      "skillFolderHash": "3642ecef471a6ee4d9d485feea6df8ba92616b78",
+      "installedAt": "2026-09-05T04:35:10.442Z",
+      "updatedAt": "2026-09-05T04:35:10.442Z"
+    },
+    "animate": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/animate/SKILL.md",
+      "skillFolderHash": "adf23358fac7bdce5febcb85d7fd985407ead56f",
+      "installedAt": "2026-09-05T04:35:33.296Z",
+      "updatedAt": "2026-09-05T04:35:33.296Z"
+    },
+    "animate-expo": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/animate-expo/SKILL.md",
+      "skillFolderHash": "2daf5ab8f4d3db7690e46d3d6d63e7ebae89a090",
+      "installedAt": "2026-09-05T04:35:33.310Z",
+      "updatedAt": "2026-09-05T04:35:33.310Z"
+    },
+    "animation-vocabulary": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/animation-vocabulary/SKILL.md",
+      "skillFolderHash": "e6dc24ca1ff1e70c9677df9a1d2d1c80415cbb3c",
+      "installedAt": "2026-09-05T04:35:33.316Z",
+      "updatedAt": "2026-09-05T04:35:33.316Z"
+    },
+    "apple-design": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/apple-design/SKILL.md",
+      "skillFolderHash": "e9f5b472dfb28d8cf29f64001b6c01ef94b8168b",
+      "installedAt": "2026-09-05T04:35:33.324Z",
+      "updatedAt": "2026-09-05T04:35:33.324Z"
+    },
+    "ask-sonner": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/ask-sonner/SKILL.md",
+      "skillFolderHash": "591cfb58ec1eb38a7ca04f3b6453a75a4fcf9fc8",
+      "installedAt": "2026-09-05T04:35:33.330Z",
+      "updatedAt": "2026-09-05T04:35:33.330Z"
+    },
+    "emil-design-eng": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/emil-design-eng/SKILL.md",
+      "skillFolderHash": "175725745e70946d891b93a1694d7c9ebb71b69d",
+      "installedAt": "2026-09-05T04:35:33.336Z",
+      "updatedAt": "2026-09-05T04:35:33.336Z"
+    },
+    "find-animation-opportunities": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/find-animation-opportunities/SKILL.md",
+      "skillFolderHash": "502f891c05c9cade7e7bd815e3f228fdd20b61b6",
+      "installedAt": "2026-09-05T04:35:33.341Z",
+      "updatedAt": "2026-09-05T04:35:33.341Z"
+    },
+    "improve-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/improve-animations/SKILL.md",
+      "skillFolderHash": "2ff93ddb9833df45f5e83080de838bb668530820",
+      "installedAt": "2026-09-05T04:35:33.353Z",
+      "updatedAt": "2026-09-05T04:35:33.353Z"
+    },
+    "pick-ui-library": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/pick-ui-library/SKILL.md",
+      "skillFolderHash": "cfc9a519a1b554eef39bba7bd74bd6845524ccd1",
+      "installedAt": "2026-09-05T04:35:33.358Z",
+      "updatedAt": "2026-09-05T04:35:33.358Z"
+    },
+    "prototype": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/prototype/SKILL.md",
+      "skillFolderHash": "564cf82ef5b17f5e018b439dc7fd1e392dcf6188",
+      "installedAt": "2026-09-05T04:35:33.364Z",
+      "updatedAt": "2026-09-05T04:35:33.364Z"
+    },
+    "review-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/review-animations/SKILL.md",
+      "skillFolderHash": "82571acae75a97764fa7899f10bd21d93a4f1414",
+      "installedAt": "2026-09-05T04:35:33.375Z",
+      "updatedAt": "2026-09-05T04:35:33.375Z"
+    },
+    "write-swift": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "skillPath": "skills/write-swift/SKILL.md",
+      "skillFolderHash": "3ffa3bc78b8aaa9a05d85f90d518400ef7d5a05f",
+      "installedAt": "2026-09-05T04:35:33.384Z",
+      "updatedAt": "2026-09-05T04:35:33.384Z"
+    },
+    "api-and-interface-design": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/api-and-interface-design/SKILL.md",
+      "skillFolderHash": "f7eefe1133c8540d00f279a171053cc9551ec5c4",
+      "installedAt": "2026-09-05T17:32:22.981Z",
+      "updatedAt": "2026-09-05T17:32:22.981Z"
+    },
+    "browser-testing-with-devtools": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/browser-testing-with-devtools/SKILL.md",
+      "skillFolderHash": "42be59520831f02c46bce7bed1aac6ab0592947c",
+      "installedAt": "2026-09-05T17:32:23.033Z",
+      "updatedAt": "2026-09-05T17:32:23.033Z"
+    },
+    "ci-cd-and-automation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/ci-cd-and-automation/SKILL.md",
+      "skillFolderHash": "34db321777a17e268ac425f0f7f2501dda55c955",
+      "installedAt": "2026-09-05T17:32:23.038Z",
+      "updatedAt": "2026-09-05T17:32:23.038Z"
+    },
+    "code-review-and-quality": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/code-review-and-quality/SKILL.md",
+      "skillFolderHash": "8c26aef07c0ac94770d48ed68e72c0fd585420a6",
+      "installedAt": "2026-09-05T17:32:23.040Z",
+      "updatedAt": "2026-09-05T17:32:23.040Z"
+    },
+    "code-simplification": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/code-simplification/SKILL.md",
+      "skillFolderHash": "15b6e21924188ee46402a8c91963162fd9056c7d",
+      "installedAt": "2026-09-05T17:32:23.046Z",
+      "updatedAt": "2026-09-05T17:32:23.046Z"
+    },
+    "constraint-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/constraint-driven-development/SKILL.md",
+      "skillFolderHash": "1a25910ac583dc0cd2f481ee6a27d883dc3a72dc",
+      "installedAt": "2026-09-05T17:32:23.048Z",
+      "updatedAt": "2026-09-05T17:32:23.048Z"
+    },
+    "context-engineering": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/context-engineering/SKILL.md",
+      "skillFolderHash": "453c3e8d973ddb10402b7c4e6b0d7fce295a43a8",
+      "installedAt": "2026-09-05T17:32:23.051Z",
+      "updatedAt": "2026-09-05T17:32:23.051Z"
+    },
+    "debugging-and-error-recovery": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/debugging-and-error-recovery/SKILL.md",
+      "skillFolderHash": "97a66b4d4750b1b5108da8633104bb1e020275ab",
+      "installedAt": "2026-09-05T17:32:23.054Z",
+      "updatedAt": "2026-09-05T17:32:23.054Z"
+    },
+    "deprecation-and-migration": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/deprecation-and-migration/SKILL.md",
+      "skillFolderHash": "452a130309afc52a26beceb21f1467936e53a37c",
+      "installedAt": "2026-09-05T17:32:23.058Z",
+      "updatedAt": "2026-09-05T17:32:23.058Z"
+    },
+    "documentation-and-adrs": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/documentation-and-adrs/SKILL.md",
+      "skillFolderHash": "85f57bdd7dcddaa589c6f36e8ac87423005c3de0",
+      "installedAt": "2026-09-05T17:32:23.061Z",
+      "updatedAt": "2026-09-05T17:32:23.061Z"
+    },
+    "doubt-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/doubt-driven-development/SKILL.md",
+      "skillFolderHash": "385c1dbda7db05fac824808e18239ee9d29cfce7",
+      "installedAt": "2026-09-05T17:32:23.068Z",
+      "updatedAt": "2026-09-05T17:32:23.068Z"
+    },
+    "frontend-ui-engineering": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/frontend-ui-engineering/SKILL.md",
+      "skillFolderHash": "893e7558baef6a0773aec4c152ca8bccd544fa03",
+      "installedAt": "2026-09-05T17:32:23.074Z",
+      "updatedAt": "2026-09-05T17:32:23.074Z"
+    },
+    "git-workflow-and-versioning": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/git-workflow-and-versioning/SKILL.md",
+      "skillFolderHash": "116794299a8929231257cdade82bd87bd0986321",
+      "installedAt": "2026-09-05T17:32:23.079Z",
+      "updatedAt": "2026-09-05T17:32:23.079Z"
+    },
+    "idea-refine": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/idea-refine/SKILL.md",
+      "skillFolderHash": "14f474d8f51370ddd9127ff3d171810a1acf891a",
+      "installedAt": "2026-09-05T17:32:23.083Z",
+      "updatedAt": "2026-09-05T17:32:23.083Z"
+    },
+    "incremental-implementation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/incremental-implementation/SKILL.md",
+      "skillFolderHash": "cc6920585c0808b8fbf368f6705a1a806193ebf2",
+      "installedAt": "2026-09-05T17:32:23.087Z",
+      "updatedAt": "2026-09-05T17:32:23.087Z"
+    },
+    "interview-me": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/interview-me/SKILL.md",
+      "skillFolderHash": "0797d64561cca6ad975d9e5d1f1497cba83a517b",
+      "installedAt": "2026-09-05T17:32:23.090Z",
+      "updatedAt": "2026-09-05T17:32:23.090Z"
+    },
+    "observability-and-instrumentation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/observability-and-instrumentation/SKILL.md",
+      "skillFolderHash": "6fc52117cbeb28c0f2eb56c54fd24a101a873263",
+      "installedAt": "2026-09-05T17:32:23.094Z",
+      "updatedAt": "2026-09-05T17:32:23.094Z"
+    },
+    "performance-optimization": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/performance-optimization/SKILL.md",
+      "skillFolderHash": "d7cc0bec423819ebe153ec70177caaec4bad3fea",
+      "installedAt": "2026-09-05T17:32:23.099Z",
+      "updatedAt": "2026-09-05T17:32:23.099Z"
+    },
+    "planning-and-task-breakdown": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/planning-and-task-breakdown/SKILL.md",
+      "skillFolderHash": "3045f95a156dc71d7b5ac1e29ce795bb5cac2b71",
+      "installedAt": "2026-09-05T17:32:23.103Z",
+      "updatedAt": "2026-09-05T17:32:23.103Z"
+    },
+    "security-and-hardening": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/security-and-hardening/SKILL.md",
+      "skillFolderHash": "a33a42fdaf569207c675e3b3185d0c6f51445823",
+      "installedAt": "2026-09-05T17:32:23.106Z",
+      "updatedAt": "2026-09-05T17:32:23.106Z"
+    },
+    "shipping-and-launch": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/shipping-and-launch/SKILL.md",
+      "skillFolderHash": "01cc4700a30c507b4406d98c428d02b3df7671ec",
+      "installedAt": "2026-09-05T17:32:23.109Z",
+      "updatedAt": "2026-09-05T17:32:23.109Z"
+    },
+    "source-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/source-driven-development/SKILL.md",
+      "skillFolderHash": "d88d094056a158b53859e29181b15a56a6acd910",
+      "installedAt": "2026-09-05T17:32:23.114Z",
+      "updatedAt": "2026-09-05T17:32:23.114Z"
+    },
+    "spec-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/spec-driven-development/SKILL.md",
+      "skillFolderHash": "3f7ea0883fced84b5338688c915ce6e0435e35f3",
+      "installedAt": "2026-09-05T17:32:23.118Z",
+      "updatedAt": "2026-09-05T17:32:23.118Z"
+    },
+    "test-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "skillFolderHash": "b5f106f5bf4a9b07bbef660602b01764029d2fbf",
+      "installedAt": "2026-09-05T17:32:23.122Z",
+      "updatedAt": "2026-09-05T17:32:23.122Z"
+    },
+    "using-agent-skills": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/using-agent-skills/SKILL.md",
+      "skillFolderHash": "72b68da3152a96bbe8cb6a24a666fc39929378db",
+      "installedAt": "2026-09-05T17:32:23.129Z",
+      "updatedAt": "2026-09-05T17:32:23.129Z"
+    },
+    "ponytail": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/ponytail/SKILL.md",
+      "skillFolderHash": "0be32208e7aca9e061fa32f2bda818b8c2d34a47",
+      "installedAt": "2026-09-05T17:32:44.231Z",
+      "updatedAt": "2026-09-05T17:34:46.662Z"
+    },
+    "ponytail-audit": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail.git",
+      "skillPath": "skills/ponytail-audit/SKILL.md",
+      "skillFolderHash": "19744a9490abb0f5d0f18c6e39e3a3eb50f4daa1",
+      "installedAt": "2026-09-05T17:32:44.252Z",
+      "updatedAt": "2026-09-05T17:32:44.252Z"
+    },
+    "ponytail-debt": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail.git",
+      "skillPath": "skills/ponytail-debt/SKILL.md",
+      "skillFolderHash": "fe9ea82cad2b42a9c244acc275c9091c414ff528",
+      "installedAt": "2026-09-05T17:32:44.267Z",
+      "updatedAt": "2026-09-05T17:32:44.267Z"
+    },
+    "ponytail-gain": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail.git",
+      "skillPath": "skills/ponytail-gain/SKILL.md",
+      "skillFolderHash": "13724e1903f76456164f00ec2a3074848433588f",
+      "installedAt": "2026-09-05T17:32:44.276Z",
+      "updatedAt": "2026-09-05T17:32:44.276Z"
+    },
+    "ponytail-help": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail.git",
+      "skillPath": "skills/ponytail-help/SKILL.md",
+      "skillFolderHash": "b7df7bc32b6e4e8bbde8acb2ef3c97ee7e7638f7",
+      "installedAt": "2026-09-05T17:32:44.287Z",
+      "updatedAt": "2026-09-05T17:32:44.287Z"
+    },
+    "ponytail-review": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail.git",
+      "skillPath": "skills/ponytail-review/SKILL.md",
+      "skillFolderHash": "dc6d9660c4297496a9220de377f6f7df38ab1a53",
+      "installedAt": "2026-09-05T17:32:44.296Z",
+      "updatedAt": "2026-09-05T17:32:44.296Z"
+    },
+    "cli-a2a": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-a2a/SKILL.md",
+      "skillFolderHash": "af1aa9f3bca8b18b0e5043157ab8fc14a7295cc1",
+      "installedAt": "2026-09-05T17:34:46.373Z",
+      "updatedAt": "2026-09-05T17:34:46.373Z"
+    },
+    "cli-backup-sync": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-backup-sync/SKILL.md",
+      "skillFolderHash": "26f55d00d8cc70b8df0ed584018291bdcf37a0cd",
+      "installedAt": "2026-09-05T17:34:46.408Z",
+      "updatedAt": "2026-09-05T17:34:46.408Z"
+    },
+    "cli-batches": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-batches/SKILL.md",
+      "skillFolderHash": "ab39aa3e83fa4e5f4e9797add048a1b4044146ed",
+      "installedAt": "2026-09-05T17:34:46.420Z",
+      "updatedAt": "2026-09-05T17:34:46.420Z"
+    },
+    "cli-chat": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-chat/SKILL.md",
+      "skillFolderHash": "50cd3aefb37ca6a67acd02935e8f9d1c3e9a48d1",
+      "installedAt": "2026-09-05T17:34:46.429Z",
+      "updatedAt": "2026-09-05T17:34:46.429Z"
+    },
+    "cli-compression": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-compression/SKILL.md",
+      "skillFolderHash": "41da34b2a7df9da1733a8b572fbd41a4cc006efd",
+      "installedAt": "2026-09-05T17:34:46.438Z",
+      "updatedAt": "2026-09-05T17:34:46.438Z"
+    },
+    "cli-contexts": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-contexts/SKILL.md",
+      "skillFolderHash": "aa7a020e345045010a963c1d80091e28a8b40ed2",
+      "installedAt": "2026-09-05T17:34:46.444Z",
+      "updatedAt": "2026-09-05T17:34:46.444Z"
+    },
+    "cli-cost-usage": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-cost-usage/SKILL.md",
+      "skillFolderHash": "fa0e87e4177701b1a64030ff4586e29652e2aa14",
+      "installedAt": "2026-09-05T17:34:46.450Z",
+      "updatedAt": "2026-09-05T17:34:46.450Z"
+    },
+    "cli-eval": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-eval/SKILL.md",
+      "skillFolderHash": "4cb01047fdf3f89ec7874eb52fcb6ebd956c0b41",
+      "installedAt": "2026-09-05T17:34:46.455Z",
+      "updatedAt": "2026-09-05T17:34:46.455Z"
+    },
+    "cli-health": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-health/SKILL.md",
+      "skillFolderHash": "a38a3dea2e863e8d828c6021ee334b4073883819",
+      "installedAt": "2026-09-05T17:34:46.460Z",
+      "updatedAt": "2026-09-05T17:34:46.460Z"
+    },
+    "cli-keys": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-keys/SKILL.md",
+      "skillFolderHash": "97571c8c6df862c366885d8de770bb407cfff9dd",
+      "installedAt": "2026-09-05T17:34:46.466Z",
+      "updatedAt": "2026-09-05T17:34:46.466Z"
+    },
+    "cli-mcp": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-mcp/SKILL.md",
+      "skillFolderHash": "74473cf78b15a09b2ef6a789c7e0ef1936aed6b9",
+      "installedAt": "2026-09-05T17:34:46.471Z",
+      "updatedAt": "2026-09-05T17:34:46.471Z"
+    },
+    "cli-models": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-models/SKILL.md",
+      "skillFolderHash": "11cac8786948399529bbec9998cc1c47e98b261b",
+      "installedAt": "2026-09-05T17:34:46.477Z",
+      "updatedAt": "2026-09-05T17:34:46.477Z"
+    },
+    "cli-plugins-skills": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-plugins-skills/SKILL.md",
+      "skillFolderHash": "78661780d8d55109a06d23fcd0d4293056111182",
+      "installedAt": "2026-09-05T17:34:46.482Z",
+      "updatedAt": "2026-09-05T17:34:46.482Z"
+    },
+    "cli-policy-audit": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-policy-audit/SKILL.md",
+      "skillFolderHash": "628f73a4a523d1d01ba874679e39ae3b765e38a7",
+      "installedAt": "2026-09-05T17:34:46.490Z",
+      "updatedAt": "2026-09-05T17:34:46.490Z"
+    },
+    "cli-providers": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-providers/SKILL.md",
+      "skillFolderHash": "9925635ac6da5e851f56b3769e77d2cd334b6ab8",
+      "installedAt": "2026-09-05T17:34:46.497Z",
+      "updatedAt": "2026-09-05T17:34:46.497Z"
+    },
+    "cli-resilience": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-resilience/SKILL.md",
+      "skillFolderHash": "76755fad0dc424b9104923311e2a9321aab9dd0d",
+      "installedAt": "2026-09-05T17:34:46.501Z",
+      "updatedAt": "2026-09-05T17:34:46.501Z"
+    },
+    "cli-routing": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-routing/SKILL.md",
+      "skillFolderHash": "3ae8fdbc9033b70d2ef9d7304b04ff20bd4f8eab",
+      "installedAt": "2026-09-05T17:34:46.508Z",
+      "updatedAt": "2026-09-05T17:34:46.508Z"
+    },
+    "cli-serve": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-serve/SKILL.md",
+      "skillFolderHash": "9968f3a5361361a934af7fa702eea5f7475827a0",
+      "installedAt": "2026-09-05T17:34:46.513Z",
+      "updatedAt": "2026-09-05T17:34:46.513Z"
+    },
+    "cli-setup": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-setup/SKILL.md",
+      "skillFolderHash": "93e0fb428133fbb4eeabd2d7c69fce0f63928e67",
+      "installedAt": "2026-09-05T17:34:46.518Z",
+      "updatedAt": "2026-09-05T17:34:46.518Z"
+    },
+    "cli-skill-collector": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-skill-collector/SKILL.md",
+      "skillFolderHash": "664d2b8f40251924399d7ba421930ca4d23337b7",
+      "installedAt": "2026-09-05T17:34:46.524Z",
+      "updatedAt": "2026-09-05T17:34:46.524Z"
+    },
+    "cli-tunnel": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/cli-tunnel/SKILL.md",
+      "skillFolderHash": "b9a68e500abd068c393e43074778b2360ceb88db",
+      "installedAt": "2026-09-05T17:34:46.527Z",
+      "updatedAt": "2026-09-05T17:34:46.527Z"
+    },
+    "config-codex-cli": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/config-codex-cli/SKILL.md",
+      "skillFolderHash": "0dd7d42590923e829f0b31a3763cdef373ddb941",
+      "installedAt": "2026-09-05T17:34:46.533Z",
+      "updatedAt": "2026-09-05T17:34:46.533Z"
+    },
+    "omni-agents-a2a": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-agents-a2a/SKILL.md",
+      "skillFolderHash": "435f1d17d1d9a3839f084604eb866d3df0529686",
+      "installedAt": "2026-09-05T17:34:46.540Z",
+      "updatedAt": "2026-09-05T17:34:46.540Z"
+    },
+    "omni-api-keys": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-api-keys/SKILL.md",
+      "skillFolderHash": "ef65e182ccf4998524e01ab1ac28d70d9f45b865",
+      "installedAt": "2026-09-05T17:34:46.546Z",
+      "updatedAt": "2026-09-05T17:34:46.546Z"
+    },
+    "omni-auth": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-auth/SKILL.md",
+      "skillFolderHash": "de3b2d7fe45b4b54a8849a9b83f3d2ad2eb16fb0",
+      "installedAt": "2026-09-05T17:34:46.550Z",
+      "updatedAt": "2026-09-05T17:34:46.550Z"
+    },
+    "omni-budget": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-budget/SKILL.md",
+      "skillFolderHash": "1d186f974be8b64aac2a89cb10edd408c768094c",
+      "installedAt": "2026-09-05T17:34:46.555Z",
+      "updatedAt": "2026-09-05T17:34:46.555Z"
+    },
+    "omni-cache": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-cache/SKILL.md",
+      "skillFolderHash": "1b041166662439fdcfb57a8a33fd89ebd0e97259",
+      "installedAt": "2026-09-05T17:34:46.560Z",
+      "updatedAt": "2026-09-05T17:34:46.560Z"
+    },
+    "omni-cli-tools": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-cli-tools/SKILL.md",
+      "skillFolderHash": "11628156d7d578431f0bdf97ec4b629c39799a39",
+      "installedAt": "2026-09-05T17:34:46.566Z",
+      "updatedAt": "2026-09-05T17:34:46.566Z"
+    },
+    "omni-combos-routing": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-combos-routing/SKILL.md",
+      "skillFolderHash": "e13c1c33b22d77ec55b8d1954c0b833d4dfaffee",
+      "installedAt": "2026-09-05T17:34:46.570Z",
+      "updatedAt": "2026-09-05T17:34:46.570Z"
+    },
+    "omni-compression": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-compression/SKILL.md",
+      "skillFolderHash": "0d15f542fbcfb583aa5940318bebd32dcdbd3caf",
+      "installedAt": "2026-09-05T17:34:46.575Z",
+      "updatedAt": "2026-09-05T17:34:46.575Z"
+    },
+    "omni-context-rtk": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-context-rtk/SKILL.md",
+      "skillFolderHash": "3dcfe8429ca3f5b514e35e93f66674b57980c4bb",
+      "installedAt": "2026-09-05T17:34:46.581Z",
+      "updatedAt": "2026-09-05T17:34:46.581Z"
+    },
+    "omni-db-backups": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-db-backups/SKILL.md",
+      "skillFolderHash": "38bc11a697e25118cbcde0ed29c7cdfb46a33482",
+      "installedAt": "2026-09-05T17:34:46.590Z",
+      "updatedAt": "2026-09-05T17:34:46.590Z"
+    },
+    "omni-github-skills": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-github-skills/SKILL.md",
+      "skillFolderHash": "570743ea6cc658b61715f08ab6d6310d1c97b819",
+      "installedAt": "2026-09-05T17:34:46.597Z",
+      "updatedAt": "2026-09-05T17:34:46.597Z"
+    },
+    "omni-inference": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-inference/SKILL.md",
+      "skillFolderHash": "3cdc16776a546ae451a9fdd4b1f5eb7eb110307d",
+      "installedAt": "2026-09-05T17:34:46.602Z",
+      "updatedAt": "2026-09-05T17:34:46.602Z"
+    },
+    "omni-mcp": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-mcp/SKILL.md",
+      "skillFolderHash": "749017fd25aff8788e0274886a9b0e522a1e1704",
+      "installedAt": "2026-09-05T17:34:46.608Z",
+      "updatedAt": "2026-09-05T17:34:46.608Z"
+    },
+    "omni-models": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-models/SKILL.md",
+      "skillFolderHash": "0239ecac2fd8b8c850de8bf46fc98645c6212793",
+      "installedAt": "2026-09-05T17:34:46.613Z",
+      "updatedAt": "2026-09-05T17:34:46.613Z"
+    },
+    "omni-providers": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-providers/SKILL.md",
+      "skillFolderHash": "4449db97180d128729d965e06ad658f179eeabe4",
+      "installedAt": "2026-09-05T17:34:46.617Z",
+      "updatedAt": "2026-09-05T17:34:46.617Z"
+    },
+    "omni-proxies": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-proxies/SKILL.md",
+      "skillFolderHash": "d27b89e5682a15e89c0baee4eebdffefacf4a401",
+      "installedAt": "2026-09-05T17:34:46.623Z",
+      "updatedAt": "2026-09-05T17:34:46.623Z"
+    },
+    "omni-resilience": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-resilience/SKILL.md",
+      "skillFolderHash": "8f39e491068cc3cfa98cbfa909ca02159304ddb9",
+      "installedAt": "2026-09-05T17:34:46.628Z",
+      "updatedAt": "2026-09-05T17:34:46.628Z"
+    },
+    "omni-settings": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-settings/SKILL.md",
+      "skillFolderHash": "b5cc0d7d4ef2d7b05b734d7e97927a06e04c7dc6",
+      "installedAt": "2026-09-05T17:34:46.633Z",
+      "updatedAt": "2026-09-05T17:34:46.633Z"
+    },
+    "omni-sync-cloud": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-sync-cloud/SKILL.md",
+      "skillFolderHash": "56f8cf0a6b235bd01cd0af5df00d3eac43b29fe7",
+      "installedAt": "2026-09-05T17:34:46.638Z",
+      "updatedAt": "2026-09-05T17:34:46.638Z"
+    },
+    "omni-tunnels": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-tunnels/SKILL.md",
+      "skillFolderHash": "835830e7ec76efe66f22c30b6dbb6e6e8aee4cb8",
+      "installedAt": "2026-09-05T17:34:46.643Z",
+      "updatedAt": "2026-09-05T17:34:46.643Z"
+    },
+    "omni-usage-logs": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-usage-logs/SKILL.md",
+      "skillFolderHash": "d059cee585ef68fd13e72b3f461f3813ea4138fb",
+      "installedAt": "2026-09-05T17:34:46.647Z",
+      "updatedAt": "2026-09-05T17:34:46.647Z"
+    },
+    "omni-version-manager": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-version-manager/SKILL.md",
+      "skillFolderHash": "86ca9d4508127f125f240ae691d0b362383637ff",
+      "installedAt": "2026-09-05T17:34:46.652Z",
+      "updatedAt": "2026-09-05T17:34:46.652Z"
+    },
+    "omni-webhooks": {
+      "source": "diegosouzapw/OmniRoute",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute.git",
+      "skillPath": "skills/omni-webhooks/SKILL.md",
+      "skillFolderHash": "70365ea61552e13ed7224dc4dd8392f61dc7c41c",
+      "installedAt": "2026-09-05T17:34:46.657Z",
+      "updatedAt": "2026-09-05T17:34:46.657Z"
+    }
+  },
+  "dismissed": {}
+}

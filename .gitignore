@@ -1,0 +1,22 @@
+# Dependencies & Cache
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.pnpm-store/
+.yarn/
+*.log
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE & Editor temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.system_generated/
