@@ -135,6 +135,25 @@ powershell -ExecutionPolicy Bypass -File .\update-skills.ps1
 
 ---
 
+## 🧪 Limitless Automated Testing & UI Verification (`scripts/verify-ui.mjs`)
+
+To ensure web apps, Next.js sites, and UI components built by AI agents work flawlessly without manual intervention, the vault includes an autonomous headless test runner:
+
+```bash
+# Run automated multi-viewport, console error & layout audit
+node scripts/verify-ui.mjs http://localhost:3000
+```
+
+### What It Audits Automatically:
+1. **Multi-Viewport Audit**: Tests across Mobile (390x844 iPhone), Tablet (768x1024 iPad), and Desktop (1440x900 MacBook).
+2. **Console Sentinel**: Traps unhandled JavaScript exceptions, runtime errors, and Next.js SSR hydration mismatches (`Text content did not match server-rendered HTML`).
+3. **Network Watchdog**: Catches 404/500 broken assets, missing images, and failed API endpoints.
+4. **Layout Overflow Check**: Programmatically catches unintended horizontal scrollbars on mobile screens (`scrollWidth > innerWidth`).
+5. **Visual Proof**: Captures full-page screenshots into `.test-results/` for instant design inspection.
+6. **Agent Self-Healing Loop**: Exits with clean code 0 on pass, or returns detailed diagnostics on failure so AI agents can auto-heal and re-test until completely green.
+
+---
+
 ## 🎨 Brand Design Systems Catalog (`design-systems/`)
 
 The vault includes **161 curated brand design system definitions** in `DESIGN.md` format (analyzed from top brands):
