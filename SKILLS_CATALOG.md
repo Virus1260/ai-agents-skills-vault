@@ -1,25 +1,25 @@
 # AI Agent Skills Vault — Master Skills Catalog
 
-> **Total Skills Tracked**: 1032 modular skills across all coding agents.
+> **Total Skills Tracked**: 1044 modular skills across all coding agents.
 
 ## Table of Contents
 
-- [Design Systems & Animations (169)](#design-systems-animations)
-- [Frontend & UI Engineering (95)](#frontend-ui-engineering)
-- [Backend & Architecture (143)](#backend-architecture)
+- [Design Systems & Animations (171)](#design-systems-animations)
+- [Frontend & UI Engineering (97)](#frontend-ui-engineering)
+- [Backend & Architecture (146)](#backend-architecture)
 - [Database & Data Engineering (45)](#database-data-engineering)
 - [AI, ML & Agent Engineering (101)](#ai-ml-agent-engineering)
-- [Generative Media, Audio & Video (33)](#generative-media-audio-video)
+- [Generative Media, Audio & Video (34)](#generative-media-audio-video)
 - [Security & Pentesting (50)](#security-pentesting)
-- [DevOps, Cloud & Infrastructure (135)](#devops-cloud-infrastructure)
+- [DevOps, Cloud & Infrastructure (137)](#devops-cloud-infrastructure)
 - [Workflow & SaaS Integrations (63)](#workflow-saas-integrations)
-- [Universal & Developer Productivity (198)](#universal-developer-productivity)
+- [Universal & Developer Productivity (200)](#universal-developer-productivity)
 
 ---
 
 ## Design Systems & Animations
 
-*Category contains 169 curated skills.*
+*Category contains 171 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -128,6 +128,8 @@
 | [`kpi-dashboard-design`](skills/kpi-dashboard-design/SKILL.md) | Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboards, selecting metrics, or designing data visualization layouts. |
 | [`langchain-architecture`](skills/langchain-architecture/SKILL.md) | Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows. |
 | [`lenis-smooth-scroll`](skills/lenis-smooth-scroll/SKILL.md) | Ultra-smooth momentum scrolling integration for web applications using Lenis (@studio-freight/lenis / lenis/react) with GSAP ScrollTrigger synchronization. |
+| [`linkedin-employee-advocacy`](skills/linkedin-employee-advocacy/SKILL.md) | Stand up and run a LinkedIn employee advocacy program for a marketing or sales team. Covers 14-day launch playbook, brand-guideline governance, per-post time budget, cadence benchmarks, and team ROI (reach, engagement, pipeline). Triggers on \"employee advocacy\", \"get the team posting\", \"scale LinkedIn across team\", \"advocacy ROI\". |
+| [`linkedin-hook-extractor`](skills/linkedin-hook-extractor/SKILL.md) | Reverse-engineer the hook formula from a viral LinkedIn post URL. Returns which of the 20 canonical 2026 formulas it uses (anaphora, R.I.P., year-pivot, time-anchor, curiosity-gap, contrarian, comment-gate, emotional cold-open, named-gratitude, and 11 more), why it worked, and a blank template. Use to learn from a competitor's post, not to write your own (use linkedin-post-writer). |
 | [`llm-app-patterns`](skills/llm-app-patterns/SKILL.md) | Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability. |
 | [`llm-application-dev-ai-assistant`](skills/llm-application-dev-ai-assistant/SKILL.md) | You are an AI assistant development expert specializing in creating intelligent conversational interfaces, chatbots, and AI-powered applications. Design comprehensive AI assistant solutions with natur |
 | [`machine-learning-ops-ml-pipeline`](skills/machine-learning-ops-ml-pipeline/SKILL.md) | Design and implement a complete ML pipeline for: $ARGUMENTS |
@@ -197,7 +199,7 @@
 
 ## Frontend & UI Engineering
 
-*Category contains 95 curated skills.*
+*Category contains 97 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -242,6 +244,8 @@
 | [`ios-developer`](skills/ios-developer/SKILL.md) | Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, |
 | [`javascript-typescript-typescript-scaffold`](skills/javascript-typescript-typescript-scaffold/SKILL.md) | You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N |
 | [`langgraph`](skills/langgraph/SKILL.md) | Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern. Used in production at LinkedIn, Uber, and 400+ companies. This is LangChain's recommended approach for building agents. Use when: langgraph, langchain agent, stateful agent, agent graph, react agent. |
+| [`linkedin-comment-drafter`](skills/linkedin-comment-drafter/SKILL.md) | Draft a LinkedIn comment on someone else's post from its URL, or reshare (repost) it to your feed with optional commentary. Use when the user pastes a post URL and asks to comment, engage, be first commenter, or repost with their thoughts. Produces 1-3 variants in the user's voice, picks a reaction, and publishes via Publora on approval. Not for replying to existing comments (use linkedin-reply-handler). |
+| [`linkedin-humanizer`](skills/linkedin-humanizer/SKILL.md) | Remove the AI tells human readers and LinkedIn's AI-slop filter react to in a post or comment: 2026 vocabulary by paragraph density, reveal bridges, staccato fragments, stacked triads, performed sincerity. Tiered rewriter (forensic / strict / aesthetic / all) plus `--mode audit` pass-fail review and `--mode profile` voice profile builder. Not for beating AI detectors (no edit reliably does). Keywords: humanize, de-AI, reads like ChatGPT, AI slop, scrub AI tells, review this draft, audit before posting. |
 | [`loki-mode`](skills/loki-mode/SKILL.md) | Multi-agent autonomous startup system for Claude Code. Triggers on "Loki Mode". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations, marketing, HR, and customer success. Takes PRD to fully deployed, revenue-generating product with zero human intervention. Features Task tool for subagent dispatch, parallel code review with 3 specialized reviewers, severity-based issue triage, distributed task queue with dead letter handling, automatic deployment to cloud providers, A/B testing, customer feedback loops, incident response, circuit breakers, and self-healing. Handles rate limits via distributed state checkpoints and auto-resume with exponential backoff. Requires --dangerously-skip-permissions flag. |
 | [`mobile-developer`](skills/mobile-developer/SKILL.md) | Develop React Native, Flutter, or native mobile apps with modern |
 | [`mockup-device-3d`](skills/mockup-device-3d/SKILL.md) | Static iPhone and MacBook 3D-style showcase with real HTML embedded on screens, glass-lens refraction, and 360-degree turntable composition. |
@@ -301,7 +305,7 @@
 
 ## Backend & Architecture
 
-*Category contains 143 curated skills.*
+*Category contains 146 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -380,6 +384,9 @@
 | [`javascript-mastery`](skills/javascript-mastery/SKILL.md) | Comprehensive JavaScript reference covering 33+ essential concepts every developer should know. From fundamentals like primitives and closures to advanced patterns like async/await and functional programming. Use when explaining JS concepts, debugging JavaScript issues, or teaching JavaScript fundamentals. |
 | [`javascript-pro`](skills/javascript-pro/SKILL.md) | Master modern JavaScript with ES6+, async patterns, and Node.js |
 | [`javascript-testing-patterns`](skills/javascript-testing-patterns/SKILL.md) | Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows. |
+| [`linkedin-engager-analytics`](skills/linkedin-engager-analytics/SKILL.md) | Pull the people who liked or commented on any LinkedIn post and segment them by ICP fit (peer / aspirational / prospect / other). Produces an engager roster, tier breakdown, and outbound action lists (follow back, comment-drop, DM-able with one-line openers). Powered by Apify, no LinkedIn login. Triggers on \"who liked my post\", \"who engaged\", \"engagers report\", \"audience analytics\". Not for tracking author replies to your comments (use linkedin-thread-monitor). |
+| [`linkedin-skills`](skills/linkedin-skills/SKILL.md) | Plan, draft, audit, and publish LinkedIn posts and comments. Use when the user wants to write a viral LinkedIn post, draft a comment or reply on any LinkedIn post URL, audit a draft against 2026 algorithm heuristics, remove AI tells, extract hook formulas from viral posts, or plan a week of content. Powered by the Publora API for publishing. User provides post/comment URLs, skill drafts content, user approves, then publishes. |
+| [`linkedin-thread-monitor`](skills/linkedin-thread-monitor/SKILL.md) | Track which of your LinkedIn comments earned author replies. Flags the 6-24h warm-reply window where thread momentum peaks, classifies threads as hot/warm/cool/dormant, and routes warm ones to linkedin-reply-handler for follow-up drafts. Powered by Apify, no LinkedIn login. Triggers on \"what threads need follow-up\", \"author replied\", \"monitor my comments\". Not for analyzing likers on a post (use linkedin-engager-analytics). |
 | [`linkerd-patterns`](skills/linkerd-patterns/SKILL.md) | Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking with minimal overhead. |
 | [`linux-privilege-escalation`](skills/linux-privilege-escalation/SKILL.md) | This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vectors on Linux systems", "exploit sudo misconfigurations", "abuse SUID binaries", "exploit cron jobs for root access", "enumerate Linux systems for privilege escalation", or "gain root access from low-privilege shell". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems. |
 | [`managing-python-dependencies`](skills/managing-python-dependencies/SKILL.md) | \| |
@@ -617,7 +624,7 @@
 
 ## Generative Media, Audio & Video
 
-*Category contains 33 curated skills.*
+*Category contains 34 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -635,6 +642,7 @@
 | [`fal-vision`](skills/fal-vision/SKILL.md) | \| |
 | [`gif-sticker-maker`](skills/gif-sticker-maker/SKILL.md) | \| |
 | [`imagegen`](skills/imagegen/SKILL.md) | \| |
+| [`linkedin-repurposer`](skills/linkedin-repurposer/SKILL.md) | Repurpose existing content into a native LinkedIn post. Take a tweet, thread, YouTube video, blog, or newsletter and rebuild it for LinkedIn: re-hook before the fold, expand to the 900 to 1300 char sweet spot, add whitespace and a CTA, move links to the first comment, run the humanizer, publish via Publora on approval. Not for writing from scratch (use linkedin-post-writer), not for auditing a draft (use linkedin-humanizer --mode audit). |
 | [`minimax-docx`](skills/minimax-docx/SKILL.md) | \| |
 | [`minimax-pdf`](skills/minimax-pdf/SKILL.md) | \| |
 | [`slack-gif-creator`](skills/slack-gif-creator/SKILL.md) | \| |
@@ -718,7 +726,7 @@
 
 ## DevOps, Cloud & Infrastructure
 
-*Category contains 135 curated skills.*
+*Category contains 137 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -804,6 +812,8 @@
 | [`iterate-pr`](skills/iterate-pr/SKILL.md) | Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle. |
 | [`kubernetes-architect`](skills/kubernetes-architect/SKILL.md) | Expert Kubernetes architect specializing in cloud-native |
 | [`legal-advisor`](skills/legal-advisor/SKILL.md) | Draft privacy policies, terms of service, disclaimers, and legal |
+| [`linkedin-post-writer`](skills/linkedin-post-writer/SKILL.md) | Draft a new LinkedIn post from scratch using one of 20 2026 hook formulas (anaphora, R.I.P., time-anchor, curiosity-gap, contrarian, controlled A/B, false-binary, and more) plus a founders-edition angle library, picked by engagement goal (comments, reposts, likes, saves). Runs the humanizer pass and schedules via Publora on approval. Use to write a post, find a hook or proven format, or get founder-specific angles. Not for reviewing existing drafts (use linkedin-humanizer --mode audit). |
+| [`linkedin-reply-handler`](skills/linkedin-reply-handler/SKILL.md) | Draft a reply to a specific existing LinkedIn comment from its URL. Use when the user wants to reply to a comment on any post, or follow up after an author replied to them. Parses the commentUrn, resolves the correct parentComment target (LinkedIn flattens threads to 2 levels), and posts via Publora on approval. Not for top-level comments (use linkedin-comment-drafter). |
 | [`linux-shell-scripting`](skills/linux-shell-scripting/SKILL.md) | This skill should be used when the user asks to "create bash scripts", "automate Linux tasks", "monitor system resources", "backup files", "manage users", or "write production shell scripts". It provides ready-to-use shell script templates for system administration. |
 | [`micro-saas-launcher`](skills/micro-saas-launcher/SKILL.md) | Expert in launching small, focused SaaS products fast - the indie hacker approach to building profitable software. Covers idea validation, MVP development, pricing, launch strategies, and growing to sustainable revenue. Ship in weeks, not months. Use when: micro saas, indie hacker, small saas, side project, saas mvp. |
 | [`minecraft-bukkit-pro`](skills/minecraft-bukkit-pro/SKILL.md) | Master Minecraft server plugin development with Bukkit, Spigot, and |
@@ -934,7 +944,7 @@
 
 ## Universal & Developer Productivity
 
-*Category contains 198 curated skills.*
+*Category contains 200 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -1032,6 +1042,8 @@
 | [`launch-strategy`](skills/launch-strategy/SKILL.md) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum. |
 | [`legacy-modernizer`](skills/legacy-modernizer/SKILL.md) | Refactor legacy codebases, migrate outdated frameworks, and |
 | [`library-curator`](skills/library-curator/SKILL.md) | \| |
+| [`linkedin-content-planner`](skills/linkedin-content-planner/SKILL.md) | Generate a 7-day LinkedIn content plan from a theme, audience, and pillars. Produces per-day post pillar, format, hook type, CTA, posting time, daily comment targets, and a weekly inbound-readiness check. Use when the user wants to plan a week or month of content, not draft a single post. |
+| [`linkedin-profile-optimizer`](skills/linkedin-profile-optimizer/SKILL.md) | Audit and rewrite a LinkedIn profile end-to-end for 2026: headline, About 7-step, Featured, banner, photo, Experience metrics, Skills, custom URL, recommendations. Triggers on \"review my profile\", \"rewrite my headline\", \"fix my About\", \"optimize banner\", \"profile audit\", \"LinkedIn bio\". Converts resume-style profiles to ones that convert 3-5x better. |
 | [`lint-and-validate`](skills/lint-and-validate/SKILL.md) | Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis. |
 | [`login-flow`](skills/login-flow/SKILL.md) | Mobile login and authentication flow screens |
 | [`loop`](skills/loop/SKILL.md) | >- |
