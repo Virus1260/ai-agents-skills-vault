@@ -1,12 +1,12 @@
 ---
 name: voice-agents
-description: "Production-grade Voice Agents & Humanized Neural TTS. Covers real-time voice architectures (Speech-to-Speech vs. Pipeline STT→LLM→TTS), SSML emotional markup, human pacing rules (micro-pauses, breath intervals, structural pauses), multi-voice persona modeling, and low-latency streaming audio."
-source: diegosouzapw/awesome-omni-skills & xfstudio/skills
+description: "Production-grade Voice Agents, Humanized Neural TTS, and Acoustic Engineering. Covers real-time voice architectures (Speech-to-Speech vs. Pipeline STT→LLM→TTS), Edge Neural streaming without API keys, Web Audio API DSP mastering (warmth/presence), dynamic F0 glottal tracking, formant analysis (F1-F3), DRAT relational table translation, and selection synchronization."
+source: diegosouzapw/awesome-omni-skills & xfstudio/skills & antigravity-voice-lab
 ---
 
 # Voice Agents & Humanized Neural Narration
 
-Production guide for voice AI agents, speech synthesis markup, and emotionally resonant conversational audio.
+Production guide for voice AI agents, speech synthesis markup, acoustic engineering, and emotionally resonant conversational audio.
 
 ## 1. The Core Architecture
 
@@ -16,16 +16,124 @@ Production guide for voice AI agents, speech synthesis markup, and emotionally r
    - *Pros*: Preserves human breathing, inflections, interjections, laughing, emotional undertones.
    - *Cons*: Difficult to inspect intermediate tokens, higher compute cost.
 
-2. **Pipeline Architecture (STT → LLM → TTS)**
+2. **Zero-Cost Browser Edge Neural Streaming (Local Server Proxy)**
+   - *Latency*: 150ms – 300ms
+   - *Engine*: Microsoft Edge Neural Read-Aloud Protocol (`msedge-tts`) proxied via `/api/tts` route.
+   - *Pros*: 100% genuine human speech with zero metallic artifacts, natural breathing, zero API key required, full SSML prosody support.
+   - *Cons*: Requires network access (seamlessly falls back to local Web Speech API).
+
+3. **Pipeline Architecture (STT → LLM → TTS)**
    - *Latency*: 600ms – 1200ms
    - *Components*: Whisper / Deepgram Nova-3 (STT) → Fast LLM (Groq / Claude 3.5 Haiku / GPT-4o-mini) → ElevenLabs / Cartesia / Edge-TTS (TTS).
    - *Pros*: Complete control over text preprocessing, SSML injection, pronunciation mapping, guardrails.
 
 ---
 
-## 2. Laws of Human Speech Synthesis (The Soothing Human Touch)
+## 2. Eliminating the "Machine / Robotic" Voice at the Browser Level
 
-Standard TTS sounds robotic because machines read continuously without breathing or modulating emphasis. To achieve natural, emotionally intelligent speech, apply the **Four Laws of Human Voice**:
+### The Root Cause of Robotic Web Speech
+On Windows, `window.speechSynthesis` defaults to legacy SAPI5 concatenative voices (`Microsoft David Desktop`, `Microsoft Zira Desktop`). These voices lack pitch modulation, sound metallic, and read without natural prosody.
+
+### The Two-Tiered Solution
+
+#### Tier 1: Zero-Key Server-Side Edge Neural Streaming (`/api/tts`)
+Stream authentic Microsoft Edge Neural voices (`en-IN-NeerjaNeural`, `en-IN-PrabhatNeural`, `en-GB-SoniaNeural`, `en-US-GuyNeural`) via a Next.js API route:
+
+```typescript
+// app/api/tts/route.ts
+import { NextRequest, NextResponse } from "next/server";
+import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
+
+export const runtime = "nodejs";
+
+export async function GET(req: NextRequest) {
+  const { searchParams } = new URL(req.url);
+  const text = searchParams.get("text") || "";
+  const persona = searchParams.get("persona") || "ananya";
+  const rate = parseFloat(searchParams.get("rate") || "1.0");
+
+  const voiceMap: Record<string, string> = {
+    ananya: "en-IN-NeerjaNeural",     // Warm, articulate Indian English woman
+    rajesh: "en-IN-PrabhatNeural",   // Deep, authoritative Indian English professor
+    elena: "en-GB-SoniaNeural",      // European academic British female
+    marcus: "en-US-GuyNeural",       // Warm American baritone
+  };
+
+  const tts = new MsEdgeTTS();
+  await tts.setMetadata(voiceMap[persona] || "en-IN-NeerjaNeural", OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3);
+  
+  const readable = tts.toStream(text, {
+    rate: `${Math.round((rate - 1.0) * 100)}%`,
+  });
+
+  const chunks: Buffer[] = [];
+  await new Promise<void>((resolve, reject) => {
+    readable.audioStream.on("data", (chunk: Buffer) => chunks.push(chunk));
+    readable.audioStream.on("end", resolve);
+    readable.audioStream.on("close", resolve);
+    readable.audioStream.on("error", reject);
+  });
+
+  return new Response(new Uint8Array(Buffer.concat(chunks)), {
+    headers: { "Content-Type": "audio/mpeg", "Cache-Control": "public, max-age=86400" },
+  });
+}
+```
+
+> [!NOTE]
+> Add `serverExternalPackages: ['msedge-tts']` in `next.config.mjs` so Webpack treats the package as external.
+
+#### Tier 2: Web Audio API DSP Acoustic Equalizer
+To remove thin, tin-can synthetic dryness and inject warm chest resonance and airy presence:
+```typescript
+// Create Web Audio Mastering Pipeline
+const ctx = new AudioContext();
+const source = ctx.createMediaElementSource(audioElement);
+
+// 1. Low-Shelf Filter: Vocal Warmth & Chest Resonance (+2.0 dB @ 250 Hz)
+const warmthFilter = ctx.createBiquadFilter();
+warmthFilter.type = "lowshelf";
+warmthFilter.frequency.value = 250;
+warmthFilter.gain.value = 2.0;
+
+// 2. High-Shelf Filter: Vocal Air & Consonant Articulation (+1.8 dB @ 5000 Hz)
+const clarityFilter = ctx.createBiquadFilter();
+clarityFilter.type = "highshelf";
+clarityFilter.frequency.value = 5000;
+clarityFilter.gain.value = 1.8;
+
+// 3. Analyser Node for Real-time FFT Frequency Telemetry
+const analyser = ctx.createAnalyser();
+analyser.fftSize = 64;
+
+source.connect(warmthFilter);
+warmthFilter.connect(clarityFilter);
+clarityFilter.connect(analyser);
+analyser.connect(ctx.destination);
+```
+
+---
+
+## 3. Dynamic $F_0(t)$ Acoustic Pitch & Formant Telemetry
+
+Human speech is never a static frequency (e.g. 220 Hz). Human vocal fold vibration constantly modulates:
+
+$$F_0(t) = F_0^{\text{base}} \times \left(1 + \Delta_{\text{intonation}} \sin(3.5 t) + \Delta_{\text{stress}} \cos(1.2 t) + \text{jitter}(t)\right)$$
+
+### Acoustic Parameters
+1. **$F_0$ Fundamental Pitch**:
+   - Adult Female Modal: 180 Hz – 265 Hz (e.g. Dr. Ananya Sharma: baseline ~220 Hz, $\Delta F_0 \pm 25\text{ Hz}$).
+   - Adult Male Modal: 95 Hz – 140 Hz (e.g. Prof. Rajesh Ramanathan: baseline ~115 Hz, $\Delta F_0 \pm 18\text{ Hz}$).
+2. **Formant Frequencies ($F_1, F_2, F_3$)**:
+   - **$F_1$ (Pharyngeal cavity / jaw opening)**: 350 Hz – 750 Hz.
+   - **$F_2$ (Oral cavity / tongue fronting)**: 1200 Hz – 2200 Hz.
+   - **$F_3$ (Retroflex / lip rounding / timbre)**: 2500 Hz – 3400 Hz.
+3. **Sound Pressure Level (SPL)**:
+   - Dynamic meter in dBFS: $20 \log_{10}(\text{RMS} / \text{Peak}) \approx -14\text{ dBFS}$ to $-6\text{ dBFS}$.
+
+---
+
+## 4. Laws of Human Speech Synthesis (The Soothing Human Touch)
 
 ### Law 1: The Pacing Rule (Deliberate Cadence)
 - Human listeners feel stressed when TTS rushes at 1.0x - 1.2x.
@@ -40,93 +148,44 @@ A machine reads without tiring; a human needs to pause, swallow, and let ideas s
 - **Mid-sentence clause (commas, colons, em-dashes)**: `250ms – 350ms` micro-pause.
 - **Transition markers** ("However,", "In conclusion,", "Specifically,"): `400ms` pre-pause and post-pause.
 
-### Law 3: The Pitch & Emphasis Rule (Intensity over Volume)
-- In human speech, profound takeaways are spoken with **lower pitch (-1st to -2st)** and calmer intensity rather than shouting.
-- Use pitch drops for technical laws and load-bearing conclusions.
-- Use reduced volume (-2dB) and slightly higher pitch for side-notes and footnotes.
+### Law 3: Dynamic Relational Audio Translation (DRAT) for Tables
+Standard TTS reads Markdown tables row by row like raw numbers. DRAT converts rows into natural conversational comparisons:
+- *"For Agitator Drive Type: Magnetic Coupling has Low maintenance and Zero seal contamination risk, whereas Double Mechanical Seal requires seal fluid monitoring."*
 
-### Law 4: Phonetic Tuning & Abbreviation Expansion
-Never pass raw acronyms or engineering units to TTS. Pre-process them:
-- `AFD` → *"A-F-D"*
-- `mbar` → *"millibars"*
-- `kJ/kg` → *"kilojoules per kilogram"*
-- `W/m²K` → *"Watts per square meter Kelvin"*
-- `Δv` → *"delta v"*
-- `dP/dT` → *"d P by d T"*
-- `dm/dt` → *"d m by d t"*
-- `21 CFR Part 11` → *"21 C F R Part 11"*
+### Law 4: Intelligent Selection Sync
+When a user highlights text anywhere inside a paragraph or row and clicks sync, the system uses fuzzy context lookback to identify the start of the surrounding sentence, so playback starts cleanly like a human lecturer rather than jarringly mid-syllable.
 
 ---
 
-## 3. Pre-Processing Pipeline (SSML & Segment Chunker)
-
-```python
-import re
-
-def prepare_humanized_speech(text: str, voice_style="academic") -> str:
-    # 1. Phonetic replacement of engineering terms
-    substitutions = [
-        (r'\bAFD\b', 'A-F-D'),
-        (r'\bmbar\b', 'millibars'),
-        (r'\bkJ/kg\b', 'kilojoules per kilogram'),
-        (r'\bW/m²K\b', 'Watts per square meter Kelvin'),
-        (r'\b°C\b', ' degrees Celsius'),
-        (r'\bCIP/SIP\b', 'C-I-P and S-I-P'),
-        (r'(\d+)\s*mbar', r'\1 millibars'),
-    ]
-    for pattern, repl in substitutions:
-        text = re.sub(pattern, repl, text)
-
-    # 2. Add structural SSML pauses
-    paragraphs = [p.strip() for p in text.split('\n\n') if p.strip()]
-    processed = []
-    
-    for para in paragraphs:
-        # Punctuation pauses
-        para = re.sub(r'\.\s+', '. <break time="650ms"/> ', para)
-        para = re.sub(r',\s+', ', <break time="280ms"/> ', para)
-        para = re.sub(r':\s+', ': <break time="400ms"/> ', para)
-        para = re.sub(r'—\s*', ' <break time="350ms"/> ', para)
-        processed.append(para)
-
-    # Wrap in soothing conversational prosody
-    rate = "92%" if voice_style == "academic" else "96%"
-    pitch = "-1st" if voice_style == "academic" else "0st"
-    
-    ssml = (
-        f'<speak><prosody rate="{rate}" pitch="{pitch}">'
-        + '<break time="1200ms"/>'.join(processed)
-        + '</prosody></speak>'
-    )
-    return ssml
-```
-
----
-
-## 4. Multi-Voice Persona Modeling
+## 5. Multi-Voice Persona Modeling
 
 Provide listeners with distinct, emotionally calibrated voice profiles:
-1. **Dr. Elena Vance (British Academic / Soothing & Methodical)**
-   - *Voice*: `en-GB-SoniaNeural` or ElevenLabs *Charlotte*
-   - *Cadence*: Rate 0.90x, Pitch 0.95x, 1.4s section pauses.
-2. **Marcus Vance (Warm Baritone / Narrative & Authoritative)**
-   - *Voice*: `en-US-ChristopherNeural` or ElevenLabs *Adam*
-   - *Cadence*: Rate 0.92x, Pitch 0.88x, crisp consonants.
-3. **Dr. Aris Thorne (Deep Senior Fellow / Technical Master)**
-   - *Voice*: `en-GB-RyanNeural` or ElevenLabs *George*
-   - *Cadence*: Rate 0.93x, Pitch 0.92x, deliberate transitions.
-4. **Seraphina Lin (Warm Scholar / Gentle & Engaging)**
-   - *Voice*: `en-US-JennyNeural` or ElevenLabs *Rachel*
-   - *Cadence*: Rate 0.90x, Pitch 1.02x, conversational pauses.
+1. **Dr. Ananya Sharma (Lead Lyophilization Scientist / Warm Academic Poise)**
+   - *Voice*: `en-IN-NeerjaNeural` (Indian English Female)
+   - *Cadence*: Rate 0.90x, Pitch 1.0x, 1.2s section pauses, $F_0 \approx 220\text{ Hz}$.
+2. **Prof. Rajesh Ramanathan (Chair of Thermal Systems / Methodical Engineering Precision)**
+   - *Voice*: `en-IN-PrabhatNeural` (Indian English Male)
+   - *Cadence*: Rate 0.92x, Pitch 0.90x, crisp enunciation, $F_0 \approx 115\text{ Hz}$.
+3. **Dr. Elena Vance (British Academic / Soothing & Methodical)**
+   - *Voice*: `en-GB-SoniaNeural` or `en-GB-LibbyNeural`
+   - *Cadence*: Rate 0.90x, Pitch 0.96x, 1.4s section pauses, $F_0 \approx 210\text{ Hz}$.
+4. **Marcus Aurel (Chief Process Architect / Authoritative Baritone)**
+   - *Voice*: `en-US-GuyNeural` or `en-US-AndrewNeural`
+   - *Cadence*: Rate 0.92x, Pitch 0.86x, deliberate transitions, $F_0 \approx 105\text{ Hz}$.
+5. **Seraphina Lin (Pharma GMP Compliance Director / Warm & Crystal Clear)**
+   - *Voice*: `en-US-JennyNeural` or `en-US-AriaNeural`
+   - *Cadence*: Rate 0.89x, Pitch 1.02x, deep focus tone, $F_0 \approx 225\text{ Hz}$.
 
 ---
 
-## 5. Production Checklist
+## 6. Production Verification Checklist
 
 - [ ] Rate scaled down to 0.90x–0.95x (never rushed)
 - [ ] Structural pauses injected at paragraph, heading, and clause boundaries
 - [ ] Technical acronyms and scientific units phonetically expanded
-- [ ] Browser natural voices filtered and prioritized over legacy synthetic voices
-- [ ] Visualizer waveform reflects real-time audio playback
-- [ ] Sentence-level spotlight synchronized with spoken audio
-- [ ] Graceful fallback to browser speech synthesis when network/audio files are unavailable
+- [ ] Zero duplicate minimize/compaction buttons in the playback bar
+- [ ] Real-time dynamic $F_0(t)$ pitch tracker active (no frozen 220 Hz)
+- [ ] Dual-engine architecture with Edge Neural HD streaming and local WebSpeech fallback
+- [ ] Web Audio API DSP equalizer (Warmth Low-Shelf & Clarity High-Shelf) active
+- [ ] DRAT table translation enabled for all markdown comparison grids
+- [ ] Intelligent Selection Sync walks back to natural sentence boundary
