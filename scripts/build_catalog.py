@@ -7,6 +7,22 @@ skills_dir = os.path.join(vault_root, "skills")
 catalog_path = os.path.join(vault_root, "SKILLS_CATALOG.md")
 
 categories = {
+    "SEO, AEO, GEO & Growth Marketing": [
+        "seo", "aeo", "geo", "marketing", "growth", "backlink", "keyword", "sitemap",
+        "crawler", "reputation", "ads", "cro", "social-campaign", "gmb", "sxo",
+        "hreflang", "organic-search", "competitor-gap", "content-brief", "firecrawl",
+        "beyondseo"
+    ],
+    "Security, Pentesting & Threat Defense": [
+        "security", "pentest", "vulnerability", "red-team", "sast", "xss", "injection",
+        "fuzzing", "privilege", "privesc", "reverse", "malware", "auth-", "clerk",
+        "sentry", "mitre", "attack", "threat", "forensic", "exfiltration", "persistence",
+        "evasion", "lateral-movement", "c2", "ransomware", "bypass", "-audit", "audit-",
+        "pci", "hipaa", "nist", "csf", "owasp", "d3fend", "soc-", "siem", "recon",
+        "reconnaissance", "investigating", "hardening", "detecting", "abusing", "analyzing",
+        "exploit", "cve", "rootkit", "beacon", "cobalt", "defense", "defensive", "iam-audit",
+        "crypto-audit", "cybersecurity"
+    ],
     "Design Systems & Animations": [
         "taste", "design", "animation", "motion", "emil", "impeccable", "gsap", "figma",
         "brutal", "minimalist", "brand", "color", "palette", "typography", "deck", "slide",
@@ -35,10 +51,6 @@ categories = {
         "fal-", "venice-", "imagegen", "remotion", "video", "audio", "sora", "minimax",
         "music", "lip-sync", "upscale", "sticker", "youtube-", "gif-"
     ],
-    "Security & Pentesting": [
-        "security", "pentest", "vulnerability", "red-team", "sast", "xss", "injection",
-        "fuzzing", "privilege", "reverse", "malware", "auth-", "clerk", "sentry"
-    ],
     "DevOps, Cloud & Infrastructure": [
         "aws", "gcp", "azure", "docker", "k8s", "kubernetes", "terraform", "cloudflare",
         "vercel", "deploy", "server", "linux", "bash", "powershell", "git", "ci", "monitoring",
@@ -54,8 +66,14 @@ categories = {
 def classify(name, desc):
     text = (name + " " + desc).lower()
     for cat, keywords in categories.items():
-        if any(k in text for k in keywords):
-            return cat
+        for k in keywords:
+            if k.startswith("-") or k.endswith("-"):
+                if k in text:
+                    return cat
+            else:
+                pattern = r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"
+                if re.search(pattern, text):
+                    return cat
     return "Universal & Developer Productivity"
 
 skills = sorted([d for d in os.listdir(skills_dir) if os.path.isdir(os.path.join(skills_dir, d))])
@@ -73,12 +91,26 @@ for s in skills:
         try:
             with open(skill_md, "r", encoding="utf-8", errors="ignore") as f:
                 content = f.read(2000)
-            # Match frontmatter description
             m = re.search(r"description:\s*([^\n\r]+)", content, re.IGNORECASE)
             if m:
-                desc = m.group(1).strip().strip("\"'")
+                val = m.group(1).strip().strip("\"'")
+                if val in (">", "|", '">"', "'|'", ""):
+                    after_m = content[m.end():]
+                    desc_lines = []
+                    for line in after_m.split("\n"):
+                        stripped = line.strip()
+                        if not stripped:
+                            continue
+                        if re.match(r"^[a-zA-Z0-9_-]+:", stripped) or stripped.startswith("---"):
+                            break
+                        desc_lines.append(stripped)
+                    if desc_lines:
+                        desc = " ".join(desc_lines)[:250]
+                    else:
+                        desc = "No description provided."
+                else:
+                    desc = val
             else:
-                # First non-header line
                 lines = [l.strip() for l in content.split("\n") if l.strip() and not l.startswith("#") and not l.startswith("---")]
                 if lines:
                     desc = lines[0][:150]
