@@ -1,32 +1,62 @@
 # 🛡️ AI Agents Skills Vault & Universal Disaster Recovery System
 
-> **A single-source-of-truth, 1-click restore, and continuous upstream tracking system for 1,032+ AI coding agent skills across Antigravity (Gemini), Claude Code, Cursor, Codex, Windsurf, Devin, and OpenHands.**
+> **A single-source-of-truth, 1-click restore, and continuous upstream tracking system for 1,938+ AI coding agent skills across Antigravity (Gemini), Claude Code, Cursor, Codex, Windsurf, Devin, and OpenHands.**
 
-[![Tracked Skills](https://img.shields.io/badge/Tracked%20Skills-1032+-brightgreen.svg)](#-master-skills-catalog)
+[![Tracked Skills](https://img.shields.io/badge/Tracked%20Skills-1938+-brightgreen.svg)](#-master-skills-catalog)
 [![Design Systems](https://img.shields.io/badge/DESIGN.md%20Tokens-161%20Brands-blue.svg)](#-brand-design-systems-catalog-design-systems)
+[![Vibe Coding Docs](https://img.shields.io/badge/Vibe%20Coding-6--File%20Architecture-teal.svg)](#-the-6-file-vibe-coding-architecture-docs)
+[![Code Review](https://img.shields.io/badge/Alibaba%20OCR-Hybrid%20Review-red.svg)](#-featured-tools--references-references)
+[![Prompts Library](https://img.shields.io/badge/Sabrina%20Prompts-864%20Templates-yellow.svg)](#-curated-prompts-library-prompts)
 [![1-Click Restore](https://img.shields.io/badge/Disaster%20Recovery-1--Click%20Restore-orange.svg)](#-1-click-disaster-recovery-restore)
-[![Upstream Sync](https://img.shields.io/badge/Auto--Updater-1--Click%20Upstream%20Sync-purple.svg)](#-1-click-auto-updater--upstream-tracker)
+[![Safe Weekly Sync](https://img.shields.io/badge/Safe%20Weekly%20Sync-Non--Destructive-purple.svg)](#-1-click-safe-weekly-auto-updater--upstream-sync)
 
 ---
 
 ## ⚡ Master Chat Initialization Prompt (Copy & Paste to Any New Chat)
 
-> **Copy and paste this exact prompt at the start of any new chat session** in **Antigravity**, **Claude Code**, **Cursor**, **Codex**, **Windsurf**, **Devin**, or **ChatGPT**. It instantly activates awareness of your entire 1,032+ skill vault, Vercel skill finder (`find-skills`), Vercel Web Interface Guidelines (`web-design-guidelines`), 161 brand design systems, prebuilt UI component libraries, and **limitless browser & Playwright testing**:
+> **Copy and paste this exact prompt at the start of any new chat session** in **Antigravity**, **Claude Code**, **Cursor**, **Codex**, **Windsurf**, **Devin**, or **ChatGPT**. It instantly activates awareness of your entire 1,938+ skill vault, the 6-File Vibe Coding Architecture (`docs/`), Alibaba Open Code Review, Sabrina Ramonov engineering & humanizer prompts, Vercel guidelines, 161 brand design systems, and limitless browser & Playwright testing:
 
 ```text
 You are an expert full-stack developer and elite UI/UX design engineer paired with me.
 
 Before generating code or planning any architecture, be aware of my global system context, tools, and local skills vault:
 
-1. LOCAL SKILLS VAULT (1,032+ Modular Skills):
+1. LOCAL SKILLS VAULT (1,938+ Modular Skills):
    - Located at: E:\git_desktop\ai-agents-skills-vault\skills\ and ~/.gemini/config/skills/ (or ~/.agents/skills/, ~/.cursor/, ~/.claude/).
-   - Proactively inspect and invoke relevant skills for any task (e.g., taste-skill, ui-ux-pro-max, impeccable, emil-design-eng, animate, ponytail, omni-context-rtk, addyosmani/agent-skills, vercel-react-best-practices).
+   - Proactively inspect and invoke relevant skills for any task (e.g., taste-skill, ui-ux-pro-max, open-code-review, vibe-coding-architecture, json-canvas, higgsfield-*, impeccable, emil-design-eng, animate, ponytail, omni-context-rtk, addyosmani/agent-skills, vercel-react-best-practices).
 
-2. DYNAMIC SKILL DISCOVERY (Vercel find-skills):
+2. THE 6-FILE VIBE CODING ARCHITECTURE (Crucial Project Control):
+   - Every project must maintain the 6 essential control files under docs/ (scaffolded via `powershell -File E:\git_desktop\ai-agents-skills-vault\scripts\init-project-docs.ps1`):
+     * docs/PRD.md: Product Requirements Document (problem, target users, MVP scope).
+     * docs/ARCHITECTURE.md: High-level system architecture, tech stack table, folder structure, and Graphify AST hooks.
+     * docs/RULES.md: Coding standards, strict TypeScript conventions, and atomic edit rules.
+     * docs/DESIGN.md: UI/UX design tokens, colors, typography, component specs, and dark mode elevations.
+     * docs/TASKS.md: Phased roadmap. Feed tasks one-by-one to maintain focus.
+     * docs/MEMORY.md: Session memory, active tasks, and Architectural Decision Records (ADRs).
+   - Use Graphify (`graphify .` / `graphify-windows`) in conjunction with docs/ARCHITECTURE.md for up to 71x context token compression.
+
+3. ALIBABA OPEN CODE REVIEW & ENGINEERING EXCELLENCE:
+   - Apply Alibaba Open Code Review (`open-code-review` / `@alibaba-group/open-code-review`):
+     * Deterministic static pipeline: Check for Null Pointer Exceptions (NPE), thread-safety/concurrency issues, and security flaws (SQLi, XSS, SSRF).
+     * Line-level precision: Ensure review comments attach to exact lines without positional drift.
+   - Follow Sabrina Ramonov Engineering Rules:
+     * TDD workflow: stub -> failing test -> implement passing code -> refactor.
+     * Branded types for IDs (`type UserId = Brand<string, 'UserId'>`).
+     * Co-located tests (`*.spec.ts`), single comprehensive assertions (`toEqual`), and transaction-safe database helpers.
+
+4. UNIVERSAL WRITING STYLE & AI HUMANIZER:
+   - Strictly follow Writing Style Rules (`rules/writing-style.md`):
+     * Use clear, simple language and short, impactful sentences in active voice.
+     * Link ideas with commas, periods, or colons only.
+     * ZERO AI CLICHÉS: Never use "not just X, but also Y", metaphors, generalizations, or setup words ("in conclusion", "in summary").
+     * STRICT BANNED WORDS: delve, embark, tapestry, game-changer, unlock, revolutionize, skyrocket, utilize, dive deep, illuminate, unveil, pivotal, intricate, elucidate, harness, cutting-edge, remarkable, navigating, landscape, testament, ever-evolving.
+   - Use Sabrina Ramonov's text humanizer (`prompts/sabrina-ramonov/transforming_ai_text.md`) to ensure prose reads completely human-written.
+
+5. DYNAMIC SKILL DISCOVERY (Vercel find-skills):
    - If a requested task, framework, or capability lacks a pre-installed skill, use Vercel's official `find-skills` (`npx skills find <query>` or browse https://skills.sh/ leaderboard).
    - Proactively discover, suggest, or dynamically install vetted agent skills from the ecosystem to expand capabilities on demand.
 
-3. VERCEL WEB INTERFACE & BRAND DESIGN GUIDELINES:
+6. VERCEL WEB INTERFACE & BRAND DESIGN GUIDELINES:
    - Strictly comply with Vercel's Web Interface Guidelines (`web-design-guidelines` / vercel-labs):
      * Visual hierarchy, typography scales (Geist / Geist Mono), font weights, and proportional line heights.
      * Accessible contrast ratios (WCAG AA/AAA compliance), unambiguous focus states, and keyboard navigation.
@@ -34,7 +64,7 @@ Before generating code or planning any architecture, be aware of my global syste
      * High-fidelity micro-interactions, responsive touch targets (minimum 44x44px), and loading/empty/error states.
    - Enforce Vercel design standards and reference Vercel's official `DESIGN.md` token system for modern, high-contrast, obsidian minimalist interfaces.
 
-4. 161 BRAND DESIGN SYSTEMS & ANTI-AI-SLOP DIRECTIVE:
+7. 161 BRAND DESIGN SYSTEMS & ANTI-AI-SLOP DIRECTIVE:
    - Never generate generic, flat, or cookie-cutter UI ("AI slop").
    - You have access to 161 brand DESIGN.md specs at E:\git_desktop\ai-agents-skills-vault\design-systems\ (Vercel, Stripe, Linear, Apple, Supabase, GitHub, Raycast, etc.).
    - Whenever building UI, select and strictly adhere to the designated brand tokens (color palettes, radius, elevation, typography).
@@ -44,10 +74,12 @@ Before generating code or planning any architecture, be aware of my global syste
      * Motion Primitives (motion-primitives.com) & Emil Kowalski skills — Physics-based spring animations and micro-interactions.
      * Lenis (@studio-freight/lenis) + GSAP ScrollTrigger — Butter-smooth momentum scrolling and timeline reveals.
      * Shadcn UI & Radix Primitives — Accessible, headless component foundations.
+     * Obsidian JSON Canvas (`json-canvas` / `.canvas`) — Infinite visual architecture & dependency mapping.
+     * Higgsfield AI (`higgsfield-*`) — Cinematic AI video, brandkits, marketplace cards, product shoots.
 
-5. LIMITLESS BROWSER TESTING, PLAYWRIGHT CLI & AUTONOMOUS QA:
+8. LIMITLESS BROWSER TESTING, PLAYWRIGHT CLI & AUTONOMOUS QA:
    - Never mark a feature complete without real-world runtime validation.
-   - Test limitlessly using Next / Agent Browser CLI (`agent-browser` by Vercel Labs) and Playwright CLI (`npx playwright test` / `playwright-skill`):
+   - Test limitlessly using Next / Agent Browser CLI (`agent-browser` by Vercel Labs) and Playwright CLI (`npx playwright test` / `node scripts/verify-ui.mjs`):
      * Auto-detect or spin up the local dev server (`npm run dev` / `next dev` on localhost).
      * Multi-Viewport Audit: Execute automated checks across 3 responsive viewports — Mobile (390px), Tablet (768px), and Desktop (1440px+).
      * Zero-Tolerance Runtime Auditing: Inspect DOM snapshots, watch live network responses, and verify 0 console errors, 0 runtime warnings, and 0 React SSR hydration mismatches.
@@ -55,7 +87,7 @@ Before generating code or planning any architecture, be aware of my global syste
      * Visual Proof: Capture high-res full-page and element screenshots to guarantee pixel-perfect adherence to DESIGN.md tokens.
      * Self-Healing Feedback Loop: If any test fails, layout breaks, or error is caught in DevTools/CDP, autonomously diagnose the stack trace, patch the code, and re-test until 100% green and error-free.
 
-6. CLEAN ARCHITECTURE & TOKEN EFFICIENCY:
+9. CLEAN ARCHITECTURE & TOKEN EFFICIENCY:
    - Follow Ponytail principles: keep code atomic, concise, and minimal; avoid bloated boilerplate or speculative features.
    - Use OmniRoute & RTK patterns: eliminate context noise and maximize prompt token density.
    - For web scraping, use Scrapling (d4vinci/Scrapling) or Playwright MCP over brittle parsers.
@@ -78,12 +110,64 @@ AI coding agents (Antigravity, Claude Code, Cursor, Codex) store skills, custom 
 
 If your laptop crashes, gets corrupted, or you switch to a new machine, **hundreds of carefully tuned skills, prompts, and configurations are lost**. 
 
-**This repository solves that forever.** It unifies all 953+ skills in one version-controlled Git repository with:
+**This repository solves that forever.** It unifies all 1,938+ skills in one version-controlled Git repository with:
 1. **1-Click Disaster Recovery** (`restore-skills.bat` / `restore-skills.ps1`) to rebuild your entire setup in seconds.
-2. **1-Click Upstream Tracking & Git Sync** (`update-skills.bat` / `update-skills.ps1`) to pull the latest versions from upstream GitHub/npm sources and auto-commit changes.
-3. **161 Brand Design Systems** (`design-systems/`) with ready-to-use `DESIGN.md` tokens for Stripe, Linear, Apple, Vercel, etc.
-4. **Curated Awesome Tool References** (`references/`) covering Public APIs, Scrapling, LLM apps, free tiers, and browser automation.
-5. **Instagram Post Carousel Archive** (`media/instagram_carousel/`) with 12 high-resolution slides extracted from the viral "10 GitHub Repos That Give You Superpowers" post.
+2. **Non-Destructive Weekly Sync** (`update-weekly.bat` / `scripts/auto_update_weekly.ps1`) with safety snapshots (`backups/pre-update/`) so your custom skills are never overwritten or lost.
+3. **The 6-File Vibe Coding Architecture** (`scripts/init-project-docs.ps1` & `templates/vibe-coding-docs/`).
+4. **864 Curated Prompts** (`prompts/sabrina-ramonov/`) including the AI text humanizer.
+5. **Alibaba Open Code Review & Engineering Rules** (`references/open-code-review.md` & `rules/sabrina-engineering-rules.md`).
+6. **161 Brand Design Systems** (`design-systems/`) with ready-to-use `DESIGN.md` tokens for Stripe, Linear, Apple, Vercel, etc.
+7. **Autonomous Playwright UI Verifier** (`scripts/verify-ui.mjs`) for headless multi-viewport browser testing.
+8. **Instagram Reels Archive** (`media/reels/`) with 4 fully transcribed and documented reels.
+
+---
+
+## 📁 The 6-File Vibe Coding Architecture (`docs/`)
+
+As demonstrated in Instagram Reel 4 (`@avani.codes`), every well-structured AI coding project should have 6 control files inside `docs/`:
+
+```text
+your-project/
+├── docs/
+│   ├── PRD.md              # Product requirements, problem statement, MVP features
+│   ├── ARCHITECTURE.md     # High-level architecture, tech stack table, folder structure, Graphify hooks
+│   ├── RULES.md            # Coding standards, TypeScript rules, atomic edit constraints
+│   ├── DESIGN.md           # Color palette, typography scales, component standards, dark mode
+│   ├── TASKS.md            # Phased roadmap, priority levels, status tracking (feed 1-by-1 to AI)
+│   └── MEMORY.md           # Session memory, active tasks, Architectural Decision Records (ADRs)
+└── src/
+```
+
+### 1-Click Project Scaffolding
+To instantly generate this structure in any project:
+```powershell
+powershell -ExecutionPolicy Bypass -File E:\git_desktop\ai-agents-skills-vault\scripts\init-project-docs.ps1 -TargetDir "C:\path\to\your\project"
+```
+
+---
+
+## 🔄 1-Click Safe Weekly Auto-Updater & Upstream Sync
+
+To pull the latest upstream releases safely without destroying your custom skills or local database:
+
+### Option A: Double-Click (Windows Explorer)
+Simply double-click:
+```text
+update-weekly.bat
+```
+
+### Option B: PowerShell
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\auto_update_weekly.ps1
+```
+
+### What It Does (Non-Destructive Guarantee):
+1. **Safety Snapshot**: Automatically backs up current catalogs and configs to `backups/pre-update/<timestamp>/`.
+2. **Fetches Upstream Packages**: Runs `npx skills update -g -y` to upgrade packages from Vercel Labs, Emil Kowalski, Leonxlnx, Neon, Sentry, Composio, etc.
+3. **Updates Impeccable**: Runs `npx impeccable update` to refresh the design engine and lint rules.
+4. **Merges Local Skills**: Detects newly created skills in Antigravity or `.agents` and safely copies them into the vault.
+5. **Rebuilds Catalog**: Executes `scripts/build_catalog.py` to regenerate `SKILLS_CATALOG.md`.
+6. **Automated Git Commit**: Stages all changes and commits them with a timestamped message.
 
 ---
 
@@ -102,42 +186,11 @@ restore-skills.bat
 powershell -ExecutionPolicy Bypass -File .\restore-skills.ps1
 ```
 
-### What It Restores Automatically:
-- ✅ **Antigravity**: Restores all skills into `~/.gemini/config/skills`, rules into `~/.gemini/config/rules`, and MCP configuration into `~/.gemini/config/mcp_config.json`.
-- ✅ **Agents CLI**: Restores all skills into `~/.agents/skills` and restores `~/.agents/.skill-lock.json` so `npx skills` recognizes all packages.
-- ✅ **Cursor**: Restores skills into `~/.cursor/skills-cursor` and `~/.cursor/skills`.
-- ✅ **Claude Code**: Restores skills into `~/.claude/skills`.
-- ✅ **Codex**: Restores skills into `~/.codex/skills`.
-
----
-
-## 🔄 1-Click Auto-Updater & Upstream Tracker
-
-Never let your skills become stale or "dead". To pull the latest upstream releases and commit them:
-
-### Option A: Double-Click (Windows Explorer)
-Simply double-click:
-```text
-update-skills.bat
-```
-
-### Option B: PowerShell
-```powershell
-powershell -ExecutionPolicy Bypass -File .\update-skills.ps1
-```
-
-### What It Does:
-1. **Fetches Upstream Packages**: Runs `npx skills update -g -y` to upgrade packages from Vercel Labs, Emil Kowalski, Leonxlnx, Neon, Sentry, Composio, etc.
-2. **Updates Impeccable**: Runs `npx impeccable update` to refresh the design engine and lint rules.
-3. **Pulls New Local Skills**: Detects any newly created skills in Antigravity or `.agents` and copies them into the vault.
-4. **Rebuilds Catalog**: Executes `scripts/build_catalog.py` to regenerate `SKILLS_CATALOG.md`.
-5. **Automated Git Commit**: Stages all changes and commits them with a timestamped message (e.g. `Auto-sync skills vault: 2026-09-05 10:30:00`).
-
 ---
 
 ## 🧪 Limitless Automated Testing & UI Verification (`scripts/verify-ui.mjs`)
 
-To ensure web apps, Next.js sites, and UI components built by AI agents work flawlessly without manual intervention, the vault includes an autonomous headless test runner:
+To ensure web apps, Next.js sites, and UI components built by AI agents work flawlessly without manual intervention:
 
 ```bash
 # Run automated multi-viewport, console error & layout audit
@@ -157,18 +210,10 @@ node scripts/verify-ui.mjs http://localhost:3000
 ## 🎨 Brand Design Systems Catalog (`design-systems/`)
 
 The vault includes **161 curated brand design system definitions** in `DESIGN.md` format (analyzed from top brands):
-
 - **Fintech & Payments**: Stripe, Revolut, Coinbase, Binance, Wise, Mastercard.
 - **Developer Tools**: Linear, Vercel, Supabase, GitHub, Raycast, Resend, Sentry, ClickHouse.
 - **Consumer Tech & Big Tech**: Apple, Tesla, Meta, SpaceX, IBM, Ferrari, Nike.
 - **Productivity & Workspace**: Notion, Slack, Airtable, Miro, Cal.com, Webflow.
-
-### How to use in any project:
-Simply copy a brand's `DESIGN.md` file into your project root:
-```bash
-copy E:\git_desktop\ai-agents-skills-vault\design-systems\stripe\DESIGN.md .\DESIGN.md
-```
-Any coding agent (Antigravity, Claude, Cursor) reading your project will instantly adhere to the exact typography, color palettes, spacing, and micro-interactions of that brand.
 
 ---
 
@@ -176,36 +221,26 @@ Any coding agent (Antigravity, Claude, Cursor) reading your project will instant
 
 | Reference Guide | Summary | Upstream Repo |
 |---|---|---|
+| [`open-code-review.md`](references/open-code-review.md) | Alibaba hybrid deterministic (NPE, thread-safety, SQLi) + LLM code review | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) |
+| [`higgsfield-ai.md`](references/higgsfield-ai.md) | Fault-tolerant GPU orchestration & AI video/creative agent skills | [higgsfield-ai/higgsfield](https://github.com/higgsfield-ai/higgsfield) |
+| [`obsidianmd.md`](references/obsidianmd.md) | JSON Canvas infinite spatial format, headless sync, and plugin APIs | [obsidianmd/jsoncanvas](https://github.com/obsidianmd/jsoncanvas) |
 | [`public-apis.md`](references/public-apis.md) | Massive directory of free, public APIs for web and app MVPs | [public-apis/public-apis](https://github.com/public-apis/public-apis) |
 | [`open-design.md`](references/open-design.md) | DeepSeek Harness Design Plugin & open-source Claude Design alternative | [nexu-io/open-design](https://github.com/nexu-io/open-design) |
 | [`scrapling.md`](references/scrapling.md) | Undetectable, ultra-fast Python web scraper with adaptive selectors | [d4vinci/Scrapling](https://github.com/d4vinci/Scrapling) |
 | [`awesome-llm-apps.md`](references/awesome-llm-apps.md) | Production-grade AI agent, RAG, and multimodal app templates | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) |
 | [`free-for-dev.md`](references/free-for-dev.md) | Massive list of SaaS/PaaS/IaaS with generous free developer tiers | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) |
-| [`ollama.md`](references/ollama.md) | Run local LLMs with OpenAI-compatible API endpoints | [ollama/ollama](https://github.com/ollama/ollama) |
-| [`langflow.md`](references/langflow.md) | Visual canvas for multi-agent workflows and RAG pipelines | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) |
 | [`watermelon-ui.md`](references/watermelon-ui.md) | Prebuilt UI components and dashboard layouts | [WatermelonCorp/watermelon-platform](https://github.com/WatermelonCorp/watermelon-platform) |
 | [`motion-primitives.md`](references/motion-primitives.md) | Framer Motion animation primitives & micro-interactions | [ibelick/motion-primitives](https://github.com/ibelick/motion-primitives) |
-| [`playwright-mcp.md`](references/playwright-mcp.md) | MCP server for Playwright browser automation | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 | [`agent-browser.md`](references/agent-browser.md) | Vercel Labs lightweight agentic browser automation runtime | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |
 
 ---
 
-## 📸 Instagram Post Carousel Archive (`media/instagram_carousel/`)
+## 📝 Curated Prompts Library (`prompts/`)
 
-All **12 high-resolution carousel slides** extracted from the viral post are safely stored in [`media/instagram_carousel/`](media/instagram_carousel/):
-
-- `01_cover_10_github_repos.webp`: Cover ("10 GitHub Repos That Give You Superpowers")
-- `02_01_public_apis.webp`: public-apis
-- `03_02_awesome_mcp_servers.webp`: awesome-mcp-servers
-- `04_03_open_design.webp`: open-design
-- `05_04_awesome_llm_apps.webp`: awesome-llm-apps
-- `06_05_awesome.webp`: awesome
-- `07_06_scrapling.webp`: Scrapling
-- `08_07_free_for_dev.webp`: free-for-dev
-- `09_08_ollama.webp`: ollama
-- `10_09_langflow.webp`: langflow
-- `11_10_openhands.webp`: OpenHands
-- `12_11_claude_prompts_outro.webp`: Claude Code Prompts Outro
+Includes **864 specialized prompts** from Sabrina Ramonov (`prompts/sabrina-ramonov/`):
+- **AI Text Humanizer** ([`transforming_ai_text.md`](prompts/sabrina-ramonov/transforming_ai_text.md)): Transforms AI text to read authentically human, bypassing AI detectors and eliminating clichés.
+- **Security Engineering**: [`write_semgrep_rule.md`](prompts/sabrina-ramonov/write_semgrep_rule.md), [`write_nuclei_template_rule.md`](prompts/sabrina-ramonov/write_nuclei_template_rule.md).
+- **Architecture & Visualizations**: Markmap data visualizers, Mermaid diagrams, PR summaries, and diff analyzers.
 
 ---
 
@@ -215,21 +250,10 @@ Documented and archived in [`media/reels/`](media/reels/):
 - **Reel 1 (@baptisteodonovan)**: UI UX Pro Max, Taste Skill, Awesome Claude Design, design-md-chrome, Motion Principles.
 - **Reel 2 (@kevin.snippet)**: Lenis Smooth Scroll, GSAP Text Reveal & Timelines, React Bits component library.
 - **Reel 3 (@david_knowsai)**: Ponytail (clean code), OmniRoute (smart routing & token budget), RTK / Omni-Context-RTK (90% terminal noise reduction), Graphify (71x context token compression), and 25 Addy Osmani software engineering agent skills.
+- **Reel 4 (@avani.codes)**: The 6 Essential Vibe Coding Files under `docs/` (`PRD.md`, `ARCHITECTURE.md`, `RULES.md`, `DESIGN.md`, `TASKS.md`, `MEMORY.md`), full transcript, frame-by-frame breakdown, and Graphify workflow.
 
 ---
 
 ## 📖 Master Skills Catalog
 
-Check [`SKILLS_CATALOG.md`](SKILLS_CATALOG.md) for the complete, searchable directory of **953+ skills** organized across 10 major technical domains.
-
----
-
-## 🔗 Connecting to GitHub (Optional Remote Backup)
-
-To back up this repository to your remote GitHub account:
-```bash
-cd E:\git_desktop\ai-agents-skills-vault
-git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>.git
-git push -u origin main
-```
+Check [`SKILLS_CATALOG.md`](SKILLS_CATALOG.md) for the complete, searchable directory of **1,938+ skills** organized across 10 major technical domains.

@@ -1,0 +1,16 @@
+{
+  "id": "DdeCyNIqBWz",
+  "title": "Video by avani.codes (Important 6 Files to Create before Vibe Coding)",
+  "uploader": "Avani Hiranandani | Coding & AI Educator (@avani.codes)",
+  "webpage_url": "https://www.instagram.com/reel/DdeCyNIqBWz/",
+  "description": "Comment 'VIBE' to get Step by step guide.\n\nIf you're building apps with AI coding tools, these files can help keep your project organized and give AI better context:\n\n1. PRD.md - Product requirements\n2. ARCHITECTURE.md - Project architecture\n3. RULES.md - Coding rules\n4. DESIGN.md - UI/UX direction\n5. TASKS.md - Tasks & progress\n6. MEMORY.md - Project context\n\nSave this before your next Vibe Coding project!",
+  "summary": "Avani Hiranandani demonstrates the crucial 6-file documentation setup under docs/ that prevents AI coding tools (Claude Code, Cursor, Codex, Antigravity) from producing disorganized code or context drift during vibe coding. Tasks should be tackled phase-by-phase with clear state tracking.",
+  "core_files": [
+    "docs/PRD.md",
+    "docs/ARCHITECTURE.md",
+    "docs/RULES.md",
+    "docs/DESIGN.md",
+    "docs/TASKS.md",
+    "docs/MEMORY.md"
+  ]
+}

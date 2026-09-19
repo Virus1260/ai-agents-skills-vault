@@ -20,3 +20,6 @@ $RECYCLE.BIN/
 *.swp
 *~
 .system_generated/
+*.wav
+backups/
+
