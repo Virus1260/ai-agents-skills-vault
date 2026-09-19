@@ -1,26 +1,26 @@
 # AI Agent Skills Vault — Master Skills Catalog
 
-> **Total Skills Tracked**: 1925 modular skills across all coding agents.
+> **Total Skills Tracked**: 1938 modular skills across all coding agents.
 
 ## Table of Contents
 
-- [SEO, AEO, GEO & Growth Marketing (82)](#seo-aeo-geo-growth-marketing)
-- [Security, Pentesting & Threat Defense (726)](#security-pentesting-threat-defense)
-- [Design Systems & Animations (163)](#design-systems-animations)
-- [Frontend & UI Engineering (70)](#frontend-ui-engineering)
-- [Backend & Architecture (115)](#backend-architecture)
+- [SEO, AEO, GEO & Growth Marketing (83)](#seo-aeo-geo-growth-marketing)
+- [Security, Pentesting & Threat Defense (727)](#security-pentesting-threat-defense)
+- [Design Systems & Animations (167)](#design-systems-animations)
+- [Frontend & UI Engineering (71)](#frontend-ui-engineering)
+- [Backend & Architecture (117)](#backend-architecture)
 - [Database & Data Engineering (53)](#database-data-engineering)
 - [AI, ML & Agent Engineering (84)](#ai-ml-agent-engineering)
-- [Generative Media, Audio & Video (22)](#generative-media-audio-video)
+- [Generative Media, Audio & Video (24)](#generative-media-audio-video)
 - [DevOps, Cloud & Infrastructure (117)](#devops-cloud-infrastructure)
 - [Workflow & SaaS Integrations (84)](#workflow-saas-integrations)
-- [Universal & Developer Productivity (409)](#universal-developer-productivity)
+- [Universal & Developer Productivity (411)](#universal-developer-productivity)
 
 ---
 
 ## SEO, AEO, GEO & Growth Marketing
 
-*Category contains 82 curated skills.*
+*Category contains 83 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -42,6 +42,7 @@
 | [`form-cro`](skills/form-cro/SKILL.md) | Optimize any form that is NOT signup or account registration — including lead capture, contact, demo request, application, survey, quote, and checkout forms. Use when the goal is to increase form completion rate, reduce friction, or improve lead qual |
 | [`free-tool-strategy`](skills/free-tool-strategy/SKILL.md) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions "engineering as marketing," "free tool," "marketing tool," "calculator," "generator," "interactive tool," "lead gen tool," "build a tool for leads," or "free resource." This skill bridges engineering and marketing — useful for founders and technical marketers. |
 | [`geo-fundamentals`](skills/geo-fundamentals/SKILL.md) | Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity). |
+| [`higgsfield-generate`](skills/higgsfield-generate/SKILL.md) | Generate images/videos/3D assets/audio via Higgsfield AI. Defaults: GPT Image 2.5 for image/design/text, Seedance 2.5 for video, Nano Banana 2/Lite/Pro for character/reference images, Marketing Studio for ads, Seed Audio 1.0 for audio. Use when: "gen |
 | [`hunting-evtx-with-chainsaw`](skills/hunting-evtx-with-chainsaw/SKILL.md) | Run Chainsaw against collected Windows EVTX files to hunt with the SigmaHQ rule corpus, built-in detection rules, and high-speed keyword/regex search, plus analyze shimcache, SRUM, and event-log gaps, outputting colorized tables, CSV, or JSON. Use during first-response triage for offline, SIEM-free detection over Windows event logs, or to quickly confirm a hunt hypothesis and produce reporting output. |
 | [`hybrid-search-implementation`](skills/hybrid-search-implementation/SKILL.md) | Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall. |
 | [`imagegen-frontend-web`](skills/imagegen-frontend-web/SKILL.md) | Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate. |
@@ -111,7 +112,7 @@
 
 ## Security, Pentesting & Threat Defense
 
-*Category contains 726 curated skills.*
+*Category contains 727 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -596,6 +597,7 @@
 | [`nodejs-best-practices`](skills/nodejs-best-practices/SKILL.md) | Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying. |
 | [`observe-whatsapp`](skills/observe-whatsapp/SKILL.md) | Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webhook deliveries/retries, triage API errors, and run health checks. Use when investigating production issues, message failures, or webhook delivery problems. |
 | [`omni-github-skills`](skills/omni-github-skills/SKILL.md) | Search, score, scan, and import agent skills from GitHub repositories that contain SKILL.md, CLAUDE.md, .cursorrules, and similar agent skill files. Discover community skills across many tool and provider categories, evaluate relevance with heuristic scoring, check for malware or hardcoded secrets, and install into Hermes, Claude Code, Gemini CLI, or OpenCode agent directories. |
+| [`open-code-review`](skills/open-code-review/SKILL.md) | Automated enterprise-grade hybrid code review using Alibaba Open Code Review. Combines deterministic pipeline rules (NPE, thread-safety, XSS, SQLi) with LLM agent line-level comments. Use when user asks to "review my code", "audit git diff", "run code review", "check security in PR", or "evaluate staged changes". |
 | [`operating-havoc-c2`](skills/operating-havoc-c2/SKILL.md) | Deploy a Havoc C2 team server with Yaotl malleable profiles, generate evasive Demon agents using indirect syscalls and sleep obfuscation, and run post-exploitation and pivoting operations. Use during authorized, rules-of-engagement-bound red-team engagements for adversary emulation requiring a full C2 lifecycle (server setup, evasive implant generation, tasking, and lateral pivoting). |
 | [`operating-sliver-c2`](skills/operating-sliver-c2/SKILL.md) | Stand up a Sliver C2 server and mTLS listeners, generate cross-platform implants and beacons, and run post-exploitation, pivoting, and BOF/.NET tooling via the Armory for adversary emulation. Use during authorized, rules-of-engagement-bound red-team engagements that need a full open-source C2 lifecycle spanning server setup, implant generation, and post-exploitation tradecraft. |
 | [`operationalizing-misp-threat-feeds`](skills/operationalizing-misp-threat-feeds/SKILL.md) | Stand up MISP, enable and cache curated threat feeds (CIRCL, abuse.ch, Feodo Tracker), apply warninglists to suppress false positives, query indicators with PyMISP, and export attributes as auto-generated Suricata/Sigma/Wazuh detection rules. Use when maturing a MISP instance to actively drive detection, curating threat feeds with quality controls, or automating IOC-to-detection pipelines for the SIEM/IDS. |
@@ -846,7 +848,7 @@
 
 ## Design Systems & Animations
 
-*Category contains 163 curated skills.*
+*Category contains 167 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -939,6 +941,8 @@
 | [`hand-drawn-diagrams`](skills/hand-drawn-diagrams/SKILL.md) | Generate hand-drawn Excalidraw diagrams from a prompt — animated SVG, hosted edit link, and PNG export. Works with Claude Code, Codex, Gemini CLI, and any agent supporting standard skill paths. |
 | [`hatch-pet`](skills/hatch-pet/SKILL.md) | Create, repair, validate, preview, and package Codex-compatible animated pet spritesheets from character art, screenshots, generated images, or visual references. Use when a user wants to hatch a Codex pet, create a custom animated pet, or build a built-in pet asset with an 8x9 atlas, transparent unused cells, row-by-row animation prompts, QA contact sheets, preview videos, and pet.json packaging. This skill composes the installed $imagegen system skill for visual generation and uses bundled scripts for deterministic spritesheet assembly. |
 | [`helm-chart-scaffolding`](skills/helm-chart-scaffolding/SKILL.md) | Design, organize, and manage Helm charts for templating and packaging Kubernetes applications with reusable configurations. Use when creating Helm charts, packaging Kubernetes applications, or implementing templated deployments. |
+| [`higgsfield-brandkit`](skills/higgsfield-brandkit/SKILL.md) | Create and extend complete visual brand systems through the Higgsfield CLI and bundled deterministic local tooling: palettes, SVG logo marks, typography, mockups, social graphics, packaging, signage, merchandise, posters, presentation decks, and edit |
+| [`higgsfield-product-photoshoot`](skills/higgsfield-product-photoshoot/SKILL.md) | Generate brand-quality product images through Higgsfield product-photoshoot prompt enhancement on GPT Image 2 / gpt_image_2. Entry point for professional brand/product visuals. Use when: "product photo", "studio shot", "lifestyle image", "Pinterest p |
 | [`high-end-visual-design`](skills/high-end-visual-design/SKILL.md) | Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic. |
 | [`html-ppt-retro-quarterly-review`](skills/html-ppt-retro-quarterly-review/SKILL.md) | Retro Quarterly Review presentation template in a bold blue + orange editorial language. Use when users ask for a high-impact quarterly review / roadmap deck with heavyweight slab headlines, clean cream paper sections, structured grids, and fast prem |
 | [`image-to-code`](skills/image-to-code/SKILL.md) | Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop. |
@@ -990,6 +994,7 @@
 | [`slides`](skills/slides/SKILL.md) | Create and edit .pptx presentation decks with PptxGenJS. Useful for sales decks, kickoff briefs, and design-system showcases. |
 | [`soft-skill`](skills/soft-skill/SKILL.md) | Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic. |
 | [`software-architecture`](skills/software-architecture/SKILL.md) | Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development. |
+| [`spec-driven-agent-framework`](skills/spec-driven-agent-framework/SKILL.md) | The 6-file specification contract for AI agents (PRD, Architecture, Rules, Design, Tasks, Memory) ensuring zero hallucination and drift-free coding sessions. |
 | [`stitch-design-taste`](skills/stitch-design-taste/SKILL.md) | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance. |
 | [`stitch-loop`](skills/stitch-loop/SKILL.md) | Iterative design-to-code feedback loop. Critique → adjust → ship cycle for tightening visual fidelity between brief and built UI. |
 | [`stitch-skill`](skills/stitch-skill/SKILL.md) | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated perfo |
@@ -1008,6 +1013,7 @@
 | [`ui-ux-designer`](skills/ui-ux-designer/SKILL.md) | Create interface designs, wireframes, and design systems. Masters |
 | [`ui-ux-pro-max`](skills/ui-ux-pro-max/SKILL.md) | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks. |
 | [`vercel-react-view-transitions`](skills/vercel-react-view-transitions/SKILL.md) | Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries. |
+| [`vibe-coding-architecture`](skills/vibe-coding-architecture/SKILL.md) | Enforces the 6-file Vibe Coding documentation architecture (docs/PRD.md, ARCHITECTURE.md, RULES.md, DESIGN.md, TASKS.md, MEMORY.md) combined with Graphify AST dependency graphs. Use when starting new projects, organizing codebases, preventing AI context drift, maintaining project memory across sessions, or structuring tasks. |
 | [`video-hyperframes`](skills/video-hyperframes/SKILL.md) | Hyperframes / Remotion-compatible continuous frame animation with autoplay support. |
 | [`web-design-guidelines`](skills/web-design-guidelines/SKILL.md) | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | [`workflow-orchestration-patterns`](skills/workflow-orchestration-patterns/SKILL.md) | Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration. |
@@ -1018,7 +1024,7 @@
 
 ## Frontend & UI Engineering
 
-*Category contains 70 curated skills.*
+*Category contains 71 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -1051,6 +1057,7 @@
 | [`frontend-skill`](skills/frontend-skill/SKILL.md) | Create visually strong landing pages, websites, and app UIs with restrained composition. OpenAI's production frontend playbook. |
 | [`frontend-ui-engineering`](skills/frontend-ui-engineering/SKILL.md) | Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated. |
 | [`graphify`](skills/graphify/SKILL.md) | any input (code, docs, papers, images) → knowledge graph → clustered communities → HTML + JSON + audit report. Use when user asks any question about a codebase, project content, architecture, or file relationships — especially if graphify-out/ exists. Provides persistent graph with god nodes, community detection, and BFS/DFS query tools. |
+| [`higgsfield-websites`](skills/higgsfield-websites/SKILL.md) | Build, edit, and deploy full-stack websites, apps and games via the Higgsfield CLI (`higgsfield website …`). Each is a React 19 + TanStack Start SSR app in one Cloudflare Worker (D1/R2/KV/DO/Containers). THREE product types, picked via `--type` on cr |
 | [`implementing-browser-isolation-for-zero-trust`](skills/implementing-browser-isolation-for-zero-trust/SKILL.md) | Deploys remote browser isolation (RBI) as a core component of a Zero |
 | [`implementing-next-generation-firewall-with-palo-alto`](skills/implementing-next-generation-firewall-with-palo-alto/SKILL.md) | Configures and deploys Palo Alto Networks next-generation firewalls end-to-end, |
 | [`ios-developer`](skills/ios-developer/SKILL.md) | Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, |
@@ -1097,7 +1104,7 @@
 
 ## Backend & Architecture
 
-*Category contains 115 curated skills.*
+*Category contains 117 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -1160,6 +1167,7 @@
 | [`implementing-ot-incident-response-playbook`](skills/implementing-ot-incident-response-playbook/SKILL.md) | Develops OT-specific incident response playbooks using a SANS PICERL-based Python |
 | [`java-pro`](skills/java-pro/SKILL.md) | Master Java 21+ with modern features like virtual threads, pattern |
 | [`javascript-pro`](skills/javascript-pro/SKILL.md) | Master modern JavaScript with ES6+, async patterns, and Node.js |
+| [`json-canvas`](skills/json-canvas/SKILL.md) | Generate and manipulate Obsidian JSON Canvas (.canvas) files for visual system architecture, mindmaps, entity relationship diagrams, and multi-step user flows. Use when asked to "create a canvas diagram", "generate architecture canvas", "visualize user flow as canvas", or "map out project dependencies visually". |
 | [`linkedin-skills`](skills/linkedin-skills/SKILL.md) | Plan, draft, audit, and publish LinkedIn posts and comments. Use when the user wants to write a viral LinkedIn post, draft a comment or reply on any LinkedIn post URL, audit a draft against 2026 algorithm heuristics, remove AI tells, extract hook formulas from viral posts, or plan a week of content. Powered by the Publora API for publishing. User provides post/comment URLs, skill drafts content, user approves, then publishes. |
 | [`makepad-skills`](skills/makepad-skills/SKILL.md) | Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting. |
 | [`managing-python-dependencies`](skills/managing-python-dependencies/SKILL.md) | Ensures proper Python dependency management, avoiding global `pip install` and adhering to project-specific tooling. Use this skill if any of the following are true: 1. Attempting to run `pip install {package_name}`. 2. Python packages or dependencie |
@@ -1215,6 +1223,7 @@
 | [`venice-image-edit`](skills/venice-image-edit/SKILL.md) | Image edits, upscaling, and background removal via the Venice.ai API. |
 | [`venice-image-generate`](skills/venice-image-generate/SKILL.md) | Image generation endpoints and available styles via the Venice.ai API. |
 | [`venice-video`](skills/venice-video/SKILL.md) | Video generation and transcription workflows via the Venice.ai API. |
+| [`voice-agents`](skills/voice-agents/SKILL.md) | Production-grade Voice Agents, Humanized Neural TTS, and Acoustic Engineering. Covers real-time voice architectures (Speech-to-Speech vs. Pipeline STT→LLM→TTS), Edge Neural streaming without API keys, Web Audio API DSP mastering (warmth/presence), dynamic F0 glottal tracking, formant analysis (F1-F3), DRAT relational table translation, and selection synchronization. |
 | [`voice-ai-development`](skills/voice-ai-development/SKILL.md) | Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for transcription, ElevenLabs for synthesis, LiveKit for real-time infrastructure, and WebRTC fundamentals. Knows how to build low-latency, production-ready voice experiences. Use when: voice ai, voice agent, speech to text, text to speech, realtime voice. |
 
 ---
@@ -1327,6 +1336,7 @@
 | [`fal-platform`](skills/fal-platform/SKILL.md) | Platform APIs for model management, pricing, and usage tracking |
 | [`full-output-enforcement`](skills/full-output-enforcement/SKILL.md) | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output. |
 | [`gcp-pipeline-orchestration`](skills/gcp-pipeline-orchestration/SKILL.md) | This skill helps the agent generate or update orchestration pipeline |
+| [`higgsfield-soul-id`](skills/higgsfield-soul-id/SKILL.md) | Train a Soul Character — a personalized model on a person's face that Higgsfield uses for identity-faithful image and video generation. Use when: "create my Soul", "train my face", "make my digital twin", "build me an avatar", "learn my appearance",  |
 | [`image-enhancer`](skills/image-enhancer/SKILL.md) | Improve image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation. |
 | [`implementing-beyondcorp-zero-trust-access-model`](skills/implementing-beyondcorp-zero-trust-access-model/SKILL.md) | Implement Google''s BeyondCorp zero trust access model using Cloud |
 | [`implementing-cisa-zero-trust-maturity-model`](skills/implementing-cisa-zero-trust-maturity-model/SKILL.md) | Assess, gap-analyze, and progressively implement the CISA Zero Trust |
@@ -1369,14 +1379,13 @@
 | [`testing-for-system-prompt-leakage`](skills/testing-for-system-prompt-leakage/SKILL.md) | Extracts LLM system prompts using direct requests, jailbreak/instruction-override |
 | [`using-agent-skills`](skills/using-agent-skills/SKILL.md) | Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked. |
 | [`venice-audio-speech`](skills/venice-audio-speech/SKILL.md) | Text-to-speech models, voices, formats, and streaming via Venice.ai. Useful for narration, voiceover, and conversational agent voices. |
-| [`voice-agents`](skills/voice-agents/SKILL.md) | Production-grade Voice Agents & Humanized Neural TTS. Covers real-time voice architectures (Speech-to-Speech vs. Pipeline STT→LLM→TTS), SSML emotional markup, human pacing rules (micro-pauses, breath intervals, structural pauses), multi-voice persona modeling, and low-latency streaming audio. |
 | [`voice-ai-engine-development`](skills/voice-ai-engine-development/SKILL.md) | Build real-time conversational AI voice engines using async worker pipelines, streaming transcription, LLM agents, and TTS synthesis with interrupt handling and multi-provider support |
 
 ---
 
 ## Generative Media, Audio & Video
 
-*Category contains 22 curated skills.*
+*Category contains 24 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -1391,6 +1400,8 @@
 | [`fal-video-edit`](skills/fal-video-edit/SKILL.md) | Edit existing videos using AI — remix style, upscale, remove background, and add audio via fal.ai's hosted video models. |
 | [`fal-vision`](skills/fal-vision/SKILL.md) | Analyze images — segment objects, detect, run OCR, describe, and answer visual questions via fal.ai vision models. |
 | [`fal-workflow`](skills/fal-workflow/SKILL.md) | Generate workflow JSON files for chaining AI models |
+| [`higgsfield-video-explainer`](skills/higgsfield-video-explainer/SKILL.md) | Build a complete non-photoreal narrated explainer or story video from ordered 10-second blocks: one narrator, one universal style key, one Seed Audio take and one Gemini Omni clip per block, then server-side assembly with explainer_video. Use when: " |
+| [`higgsfield-youtube-thumbnail`](skills/higgsfield-youtube-thumbnail/SKILL.md) | Create high-click-through YouTube thumbnails and vertical video covers through the Higgsfield CLI. Builds a truthful information-gap concept, preserves up to three referenced identities, supports logos and controlled variants, renders the main image  |
 | [`linkedin-repurposer`](skills/linkedin-repurposer/SKILL.md) | Repurpose existing content into a native LinkedIn post. Take a tweet, thread, YouTube video, blog, or newsletter and rebuild it for LinkedIn: re-hook before the fold, expand to the 900 to 1300 char sweet spot, add whitespace and a CTA, move links to the first comment, run the humanizer, publish via Publora on approval. Not for writing from scratch (use linkedin-post-writer), not for auditing a draft (use linkedin-humanizer --mode audit). |
 | [`minimax-docx`](skills/minimax-docx/SKILL.md) | Professional DOCX document creation and editing using OpenXML SDK. Useful for branded reports, polished proposals, and template-based authoring. |
 | [`social-reddit-card`](skills/social-reddit-card/SKILL.md) | Realistic Reddit post card with vote rail and comment count, suited to video overlays or story sharing. |
@@ -1626,7 +1637,7 @@
 
 ## Universal & Developer Productivity
 
-*Category contains 409 curated skills.*
+*Category contains 411 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -1719,6 +1730,7 @@
 | [`configuring-windows-defender-advanced-settings`](skills/configuring-windows-defender-advanced-settings/SKILL.md) | Configures Microsoft Defender for Endpoint (MDE) advanced protection |
 | [`configuring-windows-event-logging-for-detection`](skills/configuring-windows-event-logging-for-detection/SKILL.md) | Configures Windows Event Logging with advanced audit policies to generate |
 | [`configuring-zscaler-private-access-for-ztna`](skills/configuring-zscaler-private-access-for-ztna/SKILL.md) | Configures Zscaler Private Access (ZPA) to replace traditional VPN |
+| [`connectome-neural-simulation`](skills/connectome-neural-simulation/SKILL.md) | Biological connectome modeling, spiking neural network (SNN) simulation, Leaky Integrate-and-Fire (LIF) dynamics, neuromodulatory reward loops, and sensorimotor embodiment (e.g. Drosophila MaleCNS v1.0, StonkFly trading, Minecraft bots, robotics). |
 | [`containing-active-breach`](skills/containing-active-breach/SKILL.md) | Executes containment strategies to stop active adversary operations |
 | [`context-driven-development`](skills/context-driven-development/SKILL.md) | Use this skill when working with Conductor's context-driven |
 | [`context-management-context-restore`](skills/context-management-context-restore/SKILL.md) | Use when working with context management context restore |
@@ -1794,6 +1806,7 @@
 | [`goal`](skills/goal/SKILL.md) | Set a goal that Cursor will pursue to completion. |
 | [`godot-gdscript-patterns`](skills/godot-gdscript-patterns/SKILL.md) | Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices. |
 | [`haskell-pro`](skills/haskell-pro/SKILL.md) | Expert Haskell engineer specializing in advanced type systems, pure |
+| [`higgsfield-marketplace-cards`](skills/higgsfield-marketplace-cards/SKILL.md) | Generate marketplace product image cards through Higgsfield: compliant main image, secondary product images, and A+ style content modules. Use when the user asks for marketplace listing images, product detail cards, secondary product images, product  |
 | [`hr-pro`](skills/hr-pro/SKILL.md) | Professional, ethical HR partner for hiring, |
 | [`hugging-face-cli`](skills/hugging-face-cli/SKILL.md) | Execute Hugging Face Hub operations using the `hf` CLI. Use when the user needs to download models/datasets/spaces, upload files to Hub repositories, create repos, manage local cache, or run compute jobs on HF infrastructure. Covers authentication, file transfers, repository creation, cache operations, and cloud compute. |
 | [`hunting-for-beaconing-with-frequency-analysis`](skills/hunting-for-beaconing-with-frequency-analysis/SKILL.md) | Identify command-and-control beaconing patterns in network traffic by |
