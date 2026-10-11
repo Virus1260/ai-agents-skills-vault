@@ -1,12 +1,12 @@
 # AI Agent Skills Vault — Master Skills Catalog
 
-> **Total Skills Tracked**: 1938 modular skills across all coding agents.
+> **Total Skills Tracked**: 1940 modular skills across all coding agents.
 
 ## Table of Contents
 
 - [SEO, AEO, GEO & Growth Marketing (83)](#seo-aeo-geo-growth-marketing)
-- [Security, Pentesting & Threat Defense (727)](#security-pentesting-threat-defense)
-- [Design Systems & Animations (167)](#design-systems-animations)
+- [Security, Pentesting & Threat Defense (728)](#security-pentesting-threat-defense)
+- [Design Systems & Animations (168)](#design-systems-animations)
 - [Frontend & UI Engineering (71)](#frontend-ui-engineering)
 - [Backend & Architecture (117)](#backend-architecture)
 - [Database & Data Engineering (53)](#database-data-engineering)
@@ -112,7 +112,7 @@
 
 ## Security, Pentesting & Threat Defense
 
-*Category contains 727 curated skills.*
+*Category contains 728 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -737,6 +737,7 @@
 | [`red-team-tools`](skills/red-team-tools/SKILL.md) | This skill should be used when the user asks to "follow red team methodology", "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnerabilities", "enumerate subdomains", or needs security researcher techniques and tool configurations from top bug bounty hunters. |
 | [`red-teaming-llms-with-garak`](skills/red-teaming-llms-with-garak/SKILL.md) | Runs NVIDIA garak probe suites (jailbreak, prompt injection, data |
 | [`reverse-engineer`](skills/reverse-engineer/SKILL.md) | Expert reverse engineer specializing in binary analysis, |
+| [`reverse-engineer-anything`](skills/reverse-engineer-anything/SKILL.md) | Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA. Use shipped-artifact or requested runtime evidence to explain features, compare versions, decompile code, or guide a reconstruction. Skip REA for ordinary source-repository architecture analysis. |
 | [`reverse-engineering-android-malware-with-jadx`](skills/reverse-engineering-android-malware-with-jadx/SKILL.md) | Reverse engineers malicious Android APK files using the JADX decompiler |
 | [`reverse-engineering-dotnet-malware-with-dnspy`](skills/reverse-engineering-dotnet-malware-with-dnspy/SKILL.md) | Reverse engineers .NET malware samples using the dnSpy decompiler and |
 | [`reverse-engineering-ios-app-with-frida`](skills/reverse-engineering-ios-app-with-frida/SKILL.md) | Reverse engineers iOS applications using Frida dynamic instrumentation |
@@ -848,7 +849,7 @@
 
 ## Design Systems & Animations
 
-*Category contains 167 curated skills.*
+*Category contains 168 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -981,6 +982,7 @@
 | [`pptx-generator`](skills/pptx-generator/SKILL.md) | Create and edit PowerPoint presentations from scratch with PptxGenJS — MiniMax's production-tested deck pipeline. |
 | [`prisma-expert`](skills/prisma-expert/SKILL.md) | Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues. |
 | [`radix-ui-design-system`](skills/radix-ui-design-system/SKILL.md) | Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries. |
+| [`rea-tool-design`](skills/rea-tool-design/SKILL.md) | Design or change REA investigation tools, CLI/MCP contracts, provider capabilities, and Evidence semantics. |
 | [`redesign-existing-projects`](skills/redesign-existing-projects/SKILL.md) | Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS. |
 | [`redesign-skill`](skills/redesign-skill/SKILL.md) | Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS. |
 | [`reference-design-contract`](skills/reference-design-contract/SKILL.md) | Turn vague taste, screenshots, URLs, product notes, or "make it feel like this" references into a grounded DESIGN.md plus an implementation handoff. Use it before prototypes, decks, redesigns, or image remix work when the user needs a reusable visual |

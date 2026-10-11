@@ -8,29 +8,36 @@
         "mcp-remote",
         "https://stitch.googleapis.com/mcp",
         "--header",
-        "X-Goog-Api-Key: YOUR_GOOGLE_STITCH_API_KEY"
+        "X-Goog-Api-Key: AQ.Ab8RN6J2hWmgPGeAco7Vg1ggM07Ab8CV1I5DNNHVWSCGyRPJDg"
       ],
       "env": {}
     },
     "notebooks": {
       "command": "node",
       "args": [
-        "c:\\Users\\Shekhar\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-0.10.0-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
+        "c:\\Users\\Shekhar\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-1.0.0-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
         "notebooks-antigravityide"
       ]
     },
     "visualization": {
       "command": "node",
       "args": [
-        "c:\\Users\\Shekhar\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-0.10.0-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
+        "c:\\Users\\Shekhar\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-1.0.0-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
         "visualization-antigravityide"
       ]
     },
     "data-agent-kit": {
       "command": "node",
       "args": [
-        "c:\\Users\\Shekhar\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-0.10.0-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
+        "c:\\Users\\Shekhar\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-1.0.0-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
         "dataAgentKit-antigravityide"
+      ]
+    },
+    "rea": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\Shekhar\\AppData\\Roaming\\npm\\node_modules\\rea-agents\\scripts\\rea.mjs",
+        "mcp"
       ]
     }
   }
