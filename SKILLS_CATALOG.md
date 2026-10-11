@@ -1,6 +1,6 @@
 # AI Agent Skills Vault — Master Skills Catalog
 
-> **Total Skills Tracked**: 1940 modular skills across all coding agents.
+> **Total Skills Tracked**: 1941 modular skills across all coding agents.
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@
 - [Frontend & UI Engineering (71)](#frontend-ui-engineering)
 - [Backend & Architecture (117)](#backend-architecture)
 - [Database & Data Engineering (53)](#database-data-engineering)
-- [AI, ML & Agent Engineering (84)](#ai-ml-agent-engineering)
+- [AI, ML & Agent Engineering (85)](#ai-ml-agent-engineering)
 - [Generative Media, Audio & Video (24)](#generative-media-audio-video)
 - [DevOps, Cloud & Infrastructure (117)](#devops-cloud-infrastructure)
 - [Workflow & SaaS Integrations (84)](#workflow-saas-integrations)
@@ -1294,7 +1294,7 @@
 
 ## AI, ML & Agent Engineering
 
-*Category contains 84 curated skills.*
+*Category contains 85 curated skills.*
 
 | Skill Name | Purpose & Description |
 |---|---|
@@ -1338,6 +1338,7 @@
 | [`fal-platform`](skills/fal-platform/SKILL.md) | Platform APIs for model management, pricing, and usage tracking |
 | [`full-output-enforcement`](skills/full-output-enforcement/SKILL.md) | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output. |
 | [`gcp-pipeline-orchestration`](skills/gcp-pipeline-orchestration/SKILL.md) | This skill helps the agent generate or update orchestration pipeline |
+| [`heretic`](skills/heretic/SKILL.md) | Fully automatic censorship removal, directional ablation (abliteration), and refusal suppression for transformer-based LLMs using Heretic. Optimize refusal suppression while co-minimizing KL divergence to preserve model intelligence, reasoning capabilities, and remove AI slop. |
 | [`higgsfield-soul-id`](skills/higgsfield-soul-id/SKILL.md) | Train a Soul Character — a personalized model on a person's face that Higgsfield uses for identity-faithful image and video generation. Use when: "create my Soul", "train my face", "make my digital twin", "build me an avatar", "learn my appearance",  |
 | [`image-enhancer`](skills/image-enhancer/SKILL.md) | Improve image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation. |
 | [`implementing-beyondcorp-zero-trust-access-model`](skills/implementing-beyondcorp-zero-trust-access-model/SKILL.md) | Implement Google''s BeyondCorp zero trust access model using Cloud |

@@ -1,8 +1,8 @@
 # 🛡️ AI Agents Skills Vault & Universal Disaster Recovery System
 
-> **A single-source-of-truth, 1-click restore, and continuous upstream tracking system for 1,940+ AI coding agent skills across Antigravity (Gemini), Claude Code, Cursor, Codex, Windsurf, Devin, and OpenHands.**
+> **A single-source-of-truth, 1-click restore, and continuous upstream tracking system for 1,941+ AI coding agent skills across Antigravity (Gemini), Claude Code, Cursor, Codex, Windsurf, Devin, and OpenHands.**
 
-[![Tracked Skills](https://img.shields.io/badge/Tracked%20Skills-1940+-brightgreen.svg)](#-master-skills-catalog)
+[![Tracked Skills](https://img.shields.io/badge/Tracked%20Skills-1941+-brightgreen.svg)](#-master-skills-catalog)
 [![Design Systems](https://img.shields.io/badge/DESIGN.md%20Tokens-161%20Brands-blue.svg)](#-brand-design-systems-catalog-design-systems)
 [![Vibe Coding Docs](https://img.shields.io/badge/Vibe%20Coding-6--File%20Architecture-teal.svg)](#-the-6-file-vibe-coding-architecture-docs)
 [![Code Review](https://img.shields.io/badge/Alibaba%20OCR-Hybrid%20Review-red.svg)](#-featured-tools--references-references)
@@ -14,14 +14,14 @@
 
 ## ⚡ Master Chat Initialization Prompt (Copy & Paste to Any New Chat)
 
-> **Copy and paste this exact prompt at the start of any new chat session** in **Antigravity**, **Claude Code**, **Cursor**, **Codex**, **Windsurf**, **Devin**, or **ChatGPT**. It instantly activates awareness of your entire 1,940+ skill vault, the 6-File Vibe Coding Architecture (`docs/`), Alibaba Open Code Review, Sabrina Ramonov engineering & humanizer prompts, Vercel guidelines, 161 brand design systems, and limitless browser & Playwright testing:
+> **Copy and paste this exact prompt at the start of any new chat session** in **Antigravity**, **Claude Code**, **Cursor**, **Codex**, **Windsurf**, **Devin**, or **ChatGPT**. It instantly activates awareness of your entire 1,941+ skill vault, the 6-File Vibe Coding Architecture (`docs/`), Alibaba Open Code Review, Sabrina Ramonov engineering & humanizer prompts, Vercel guidelines, 161 brand design systems, and limitless browser & Playwright testing:
 
 ```text
 You are an expert full-stack developer and elite UI/UX design engineer paired with me.
 
 Before generating code or planning any architecture, be aware of my global system context, tools, and local skills vault:
 
-1. LOCAL SKILLS VAULT (1,940+ Modular Skills):
+1. LOCAL SKILLS VAULT (1,941+ Modular Skills):
    - Located at: E:\git_desktop\ai-agents-skills-vault\skills\ and ~/.gemini/config/skills/ (or ~/.agents/skills/, ~/.cursor/, ~/.claude/).
    - Proactively inspect and invoke relevant skills for any task (e.g., taste-skill, ui-ux-pro-max, open-code-review, vibe-coding-architecture, json-canvas, higgsfield-*, impeccable, emil-design-eng, animate, ponytail, omni-context-rtk, addyosmani/agent-skills, vercel-react-best-practices).
 
@@ -110,7 +110,7 @@ AI coding agents (Antigravity, Claude Code, Cursor, Codex) store skills, custom 
 
 If your laptop crashes, gets corrupted, or you switch to a new machine, **hundreds of carefully tuned skills, prompts, and configurations are lost**. 
 
-**This repository solves that forever.** It unifies all 1,940+ skills in one version-controlled Git repository with:
+**This repository solves that forever.** It unifies all 1,941+ skills in one version-controlled Git repository with:
 1. **1-Click Disaster Recovery** (`restore-skills.bat` / `restore-skills.ps1`) to rebuild your entire setup in seconds.
 2. **Non-Destructive Weekly Sync** (`update-weekly.bat` / `scripts/auto_update_weekly.ps1`) with safety snapshots (`backups/pre-update/`) so your custom skills are never overwritten or lost.
 3. **The 6-File Vibe Coding Architecture** (`scripts/init-project-docs.ps1` & `templates/vibe-coding-docs/`).
@@ -256,4 +256,4 @@ Documented and archived in [`media/reels/`](media/reels/):
 
 ## 📖 Master Skills Catalog
 
-Check [`SKILLS_CATALOG.md`](SKILLS_CATALOG.md) for the complete, searchable directory of **1,940+ skills** organized across 10 major technical domains.
+Check [`SKILLS_CATALOG.md`](SKILLS_CATALOG.md) for the complete, searchable directory of **1,941+ skills** organized across 10 major technical domains.
